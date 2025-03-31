@@ -1,0 +1,15 @@
+---
+title: "Slides"
+format: html
+listing:
+  - contents: "slides/*.qmd"
+    type: table
+    fields: [date,title, subtitle]
+    categories: true
+    id: slides
+    page-size: 100
+    sort: "date desc"
+---
+
+::: {#slides}
+:::

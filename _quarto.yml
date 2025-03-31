@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+fig-align: center
+
+website:
+  title: "sbu"
+
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  revealjs:
+    theme: [default,style/styles.scss]
+    slide-number: true
+    scrollable: true
+    chalkboard: true
+    footer: automating data collection using web-scraping
+    author: "Sabou"
+    controls: true
+
+
+editor: source
+
+author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
+  - id: sbu
+    name: Sabou Stocker
+    orcid: 0009-0004-2063-6898
+    affiliation: University of Zürich
