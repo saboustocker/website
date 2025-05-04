@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='432.00pt' height='288.00pt' viewBox='0 0 432.00 288.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHw0MzIuMDB8MC4wMHwyODguMDA='>
+    <rect x='0.00' y='0.00' width='432.00' height='288.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw0MzIuMDB8MC4wMHwyODguMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpNTkuODN8NDI2LjUyfDM3LjQzfDI1Ni41MA=='>
+    <rect x='59.83' y='37.43' width='366.69' height='219.07' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNTkuODN8NDI2LjUyfDM3LjQzfDI1Ni41MA==)'>
+<polyline points='76.50,256.50 76.50,37.43 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='187.62,256.50 187.62,37.43 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='298.74,256.50 298.74,37.43 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='409.85,256.50 409.85,37.43 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='59.83,215.43 426.52,215.43 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='59.83,146.97 426.52,146.97 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='59.83,78.51 426.52,78.51 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='132.06,256.50 132.06,37.43 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='243.18,256.50 243.18,37.43 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='354.29,256.50 354.29,37.43 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<line x1='166.04' y1='215.43' x2='225.94' y2='215.43' style='stroke-width: 1.07; stroke: #0028A5; stroke-linecap: butt;' />
+<line x1='108.72' y1='146.97' x2='169.45' y2='146.97' style='stroke-width: 1.07; stroke: #0028A5; stroke-linecap: butt;' />
+<line x1='275.90' y1='78.51' x2='311.37' y2='78.51' style='stroke-width: 1.07; stroke: #0028A5; stroke-linecap: butt;' />
+<circle cx='195.89' cy='215.43' r='2.84' style='stroke-width: 1.42; stroke: #0028A5; fill: #0028A5;' />
+<circle cx='139.18' cy='146.97' r='2.84' style='stroke-width: 1.42; stroke: #0028A5; fill: #0028A5;' />
+<circle cx='293.64' cy='78.51' r='2.84' style='stroke-width: 1.42; stroke: #0028A5; fill: #0028A5;' />
+<line x1='243.18' y1='256.50' x2='243.18' y2='37.43' style='stroke-width: 1.07; stroke: #BF0D3E; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
+</g>
+<g clip-path='url(#cpMC4wMHw0MzIuMDB8MC4wMHwyODguMDA=)'>
+<text x='54.90' y='218.58' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='35.20px' lengthAdjust='spacingAndGlyphs'>All vs. All</text>
+<text x='54.90' y='150.12' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='42.07px' lengthAdjust='spacingAndGlyphs'>One vs. All</text>
+<text x='54.90' y='81.66' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='49.42px' lengthAdjust='spacingAndGlyphs'>One vs. One</text>
+<text x='132.06' y='267.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='20.07px' lengthAdjust='spacingAndGlyphs'>-0.02</text>
+<text x='243.18' y='267.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='17.14px' lengthAdjust='spacingAndGlyphs'>0.00</text>
+<text x='354.29' y='267.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='17.14px' lengthAdjust='spacingAndGlyphs'>0.02</text>
+<text x='243.18' y='280.20' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='125.08px' lengthAdjust='spacingAndGlyphs'>point estimate + 90% HDI</text>
+<text x='59.83' y='14.93' style='font-size: 13.20px; font-family: "Arial";' textLength='248.57px' lengthAdjust='spacingAndGlyphs'>Point Estimates of deviation and 90% HDI </text>
+<text x='59.83' y='29.18' style='font-size: 13.20px; font-family: "Arial";' textLength='346.77px' lengthAdjust='spacingAndGlyphs'>relative to the mean AUC-ROC across all comparison types</text>
+</g>
+</svg>
