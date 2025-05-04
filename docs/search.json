@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Slides",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nMay 2, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nMay 4, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/techlunch31032025.html#our-program",
@@ -179,7 +179,7 @@
     "href": "slides/foko4_20250505.html#aim",
     "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
     "section": "Aim",
-    "text": "Aim\n\nCan we diagnose state-dependent mechanisms influencing decisions under risk and uncertainty by utilizing verbal protocols as data?\n\n\n\nlast time, I did ask you that I want to find out if we can use think-aloud protocols for diagnosing state-dependent mechanisms, this time I am telling you if I managed to do exactly that!"
+    "text": "Aim\n\nCan we diagnose state-dependent mechanisms influencing decisions under risk and uncertainty by utilizing verbal protocols as data?\n\n\n\nlast time, I did ask you that I want to find out if we can use think-aloud protocols for diagnosing state-dependent mechanisms, this time I am telling you if I managed to do exactly that!\ntoday’s agenda:\n\naim and research questions\nmethodology\nresults\ncontext\nlimitations\nquestions"
   },
   {
     "objectID": "slides/foko4_20250505.html#method-3",
@@ -263,21 +263,21 @@
     "href": "slides/foko4_20250505.html#specification-curve-analysis",
     "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
     "section": "Specification Curve Analysis",
-    "text": "Specification Curve Analysis\n\n\n\n\nMeasurement metric (AUC-ROC / h-score)\nDominance of two data preselection strategies without clear pattern between the two emerging\nDominance of two classifiers with indication that one is better than the other\nNo visible pattern\n\n\n\n\n\n\n\n\n\nFigure 1: Graph depicting symbolic specification curve analysis. (grey dotted line indicates how “dots” in categories indicate the specific configuration.)"
+    "text": "Specification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n\n\n\n\nMeasurement metric (AUC-ROC / h-score)\nDominance of two data preselection strategies without clear pattern between the two emerging\nDominance of two classifiers with indication that one is better than the other\nNo visible pattern\n\n\n\n\n\n\n\n\n\nFigure 1: Graph depicting symbolic specification curve analysis. (grey dotted line indicates how “dots” in categories indicate the specific configuration.)"
   },
   {
     "objectID": "slides/foko4_20250505.html#model-comparisons",
     "href": "slides/foko4_20250505.html#model-comparisons",
     "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
     "section": "Model Comparisons",
-    "text": "Model Comparisons\n\n\n\n\n\n\n\nFigure 2: Paired samples of specifications tested against each other, paired by common denominators through other specifications."
+    "text": "Model Comparisons\n\nBased on approaches suggested by Law (2021), Lacoste, Laviolette, and Marchand (2012), and others.\n\n\n\n\n\n\n\n\n\nFigure 2: Paired samples of specifications tested against each other, paired by common denominators through other specifications."
   },
   {
     "objectID": "slides/foko4_20250505.html#model-comparisons-1",
     "href": "slides/foko4_20250505.html#model-comparisons-1",
     "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
     "section": "Model Comparisons",
-    "text": "Model Comparisons\n\n\n\n\n\n\n\nFigure 3: Graph depicting symbolic parameter comparison of two specifications."
+    "text": "Model Comparisons\n\nBased on approaches suggested by Law (2021), Lacoste, Laviolette, and Marchand (2012), and others.\n\n\n\n\n\n\n\n\nFigure 3: Graph depicting symbolic parameter comparison of two specifications."
   },
   {
     "objectID": "slides/foko4_20250505.html#reduced-specification-curve",
@@ -312,7 +312,7 @@
     "href": "slides/foko4_20250505.html#my-questions",
     "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
     "section": "My questions",
-    "text": "My questions\n\nHow can I assess the impact of credibly better specifications (effect size)?\nResearcher degrees of (reporting) freedom?\n\n\nAnd some administrative questions for Renato\n\nlicence / app - okay to be public?\nhand in of master’s thesis: email, to whom, who to CC and what to consider?"
+    "text": "My questions\n\nHow can I assess the impact of credibly better specifications (effect size)?\nResearcher degrees of (reporting) freedom?\n\n\n\nAnd some administrative questions for Renato\n\nIs it okay for me to have public repositories in relation to my Master’s thesis on my personal GitHub (applet)?\nHow should we submit the final Master’s Thesis (PDF as E-Mail attachment, print, to whom, submission in official UZH tool by us or supervisor, …)?"
   },
   {
     "objectID": "slides/foko4_20250505.html#research-questions-1",
@@ -326,6 +326,20 @@
     "href": "slides/foko4_20250505.html#section",
     "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
     "section": "",
-    "text": "… and for the last time … \n\n(unless you decide to fail me and I have to rewrite another Master’s thesis)…\n\n\n\nThank you!"
+    "text": "… and for the last time … \n\n(unless you decide to fail me and I have to rewrite another Master’s thesis)…\n\n\n\n\nThank you!"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#explore-the-results-yourself",
+    "href": "slides/foko4_20250505.html#explore-the-results-yourself",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Explore the Results yourself",
+    "text": "Explore the Results yourself\n\n https://saboustocker.shinyapps.io/webapp_analysis/"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#bibliography",
+    "href": "slides/foko4_20250505.html#bibliography",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n\n\n\nLacoste, Alexandre, Francois Laviolette, and Mario Marchand. 2012. “Bayesian Comparison of Machine Learning Algorithms on Single and Multiple Datasets.” 2012.\n\n\nLaw, Jonny. 2021. “Bayesian Inference and Functional Programming - Model Comparison with Hierarchical Models.” September 27, 2021. https://jonnylaw.rocks/posts/2021-09-27-model-comparison/.\n\n\nSimonsohn, Uri, Joseph P. Simmons, and Leif D. Nelson. 2020. “Specification Curve Analysis.” Nature Human Behaviour 4 (11): 1208–14. https://doi.org/10.1038/s41562-020-0912-z."
   }
 ]

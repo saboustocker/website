@@ -181,6 +181,14 @@ $light-grey-5: #D7D7D7;
     padding-left: 0.5em; /* Adjust as needed */
 }
 
+.smaller-p {
+  font-size: 0.75em;
+  color: #4D4D4D;
+}
+
+
+/*-- containers --*/
+
 .v-center-container {
   display: flex;
   justify-content: center;

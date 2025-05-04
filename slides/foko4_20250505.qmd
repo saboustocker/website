@@ -7,8 +7,10 @@ format:
   revealjs:
     footer: FoKo 4 | Sabou Rani Stocker | CBDR
 date-format: "DD.MM.YY"
+bibliography:
+  - "../bibliography/nlplibrary.bib"
+  - "../bibliography/privatelibrary.bib"
 ---
-
 
 
 # Aim and Research Questions
@@ -23,6 +25,16 @@ date-format: "DD.MM.YY"
 
 :::{.notes}
 - last time, I did ask you that I want to find out if we can use think-aloud protocols for diagnosing state-dependent mechanisms, this time I am telling you if I managed to do exactly that! 
+
+
+* today's agenda: 
+  * aim and research questions
+  * methodology 
+  * results
+  * context
+  * limitations
+  * questions
+
 :::
 
 ## Research Questions {.smaller}
@@ -46,8 +58,13 @@ date-format: "DD.MM.YY"
 
 ## Specification Curve Analysis
 
-::: {.columns}
+:::{.smaller-p}
+@simonsohnSpecificationCurveAnalysis2020
+:::
 
+. . . 
+
+::: {.columns}
 
 ::: {.column width="50%"}
 
@@ -71,12 +88,20 @@ d. No visible pattern
 
 
 ## Model Comparisons
+:::{.smaller-p}
+Based on approaches suggested by @lawBayesianInferenceFunctional2021, @lacosteBayesianComparisonMachine2012, and others.
+:::
+
+. . . 
 
 :::{.v-center-container}
-![Paired samples of specifications tested against each other, paired by common denominators through other specifications.](images_foko/samples_together_example.svg){#fig-pairedsamples width=1600px}
+![Paired samples of specifications tested against each other, paired by common denominators through other specifications.](images_foko/samples_together_example.svg){#fig-pairedsamples}
 :::
 
 ## Model Comparisons
+:::{.smaller-p}
+Based on approaches suggested by @lawBayesianInferenceFunctional2021, @lacosteBayesianComparisonMachine2012, and others.
+:::
 
 :::{.v-center-container}
 ![Graph depicting symbolic parameter comparison of two specifications.](images_foko/parameter_estimates_example.svg){#fig-parameterestimates}
@@ -272,6 +297,14 @@ model_mechanisms <- stan_glmer(
 
 ![Reduced Plot with only influential classifiers displayed. Classifiers displayed are Deepseek R1 with prompt type "both" and all SBERT based algorithms embedding pooling MAX. All data used is based on transcriptions that were not further pre-processed. Only "One vs. One" and "One vs. All" comparisons are displayed.](images_foko/reduced_plot_for_renato.svg){#fig-reducedplot}
 
+## Explore the Results yourself
+
+:::{.center-p}
+![](images_foko/qrcode.png){width=40%}
+https://saboustocker.shinyapps.io/webapp_analysis/
+:::
+
+
 # Discussion
 
 ## Implications of Results
@@ -289,7 +322,7 @@ model_mechanisms <- stan_glmer(
 
 # Q & A
 
-## Your questions?{.center}
+## Your questions?
 
 ## My questions
 
@@ -298,14 +331,15 @@ model_mechanisms <- stan_glmer(
 
 . . .
 
+:::{.smaller-p}
 **And some administrative questions for Renato**
 
-- licence / app - okay to be public? 
-- hand in of master's thesis: email, to whom, who to CC and what to consider? 
+- Is it okay for me to have public repositories in relation to my Master's thesis on my personal GitHub (applet)?
+- How should we submit the final Master's Thesis (PDF as E-Mail attachment, print, to whom, submission in official UZH tool by us or supervisor, ...)?
+:::
+
 
 ## {.center }
-
-
 
 ... and for the last time ...
 <br>
@@ -322,7 +356,11 @@ model_mechanisms <- stan_glmer(
 
 ::: {.fragment fragment-index=2}
 
+:::{.center-p}
 **Thank you!**
 
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXRlNHhvaW4zbTNxOXR4bXRxOWIwMzg1NGh2eGN2bXM1aXg0MGd2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/osjgQPWRx3cac/giphy.gif){height=250px}
 :::
+:::
+
+## Bibliography
