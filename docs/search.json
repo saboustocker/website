@@ -1,0 +1,331 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Slides",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nMay 2, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#our-program",
+    "href": "slides/techlunch31032025.html#our-program",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Our program",
+    "text": "Our program\n\nWhy would I want to automate web-scraping?\nThe right tool for the job…\n… but how do I know the job?\nSome practical examples and code\nQ&A\n(Optional: some funny statistics)"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#what-i-used-it-for",
+    "href": "slides/techlunch31032025.html#what-i-used-it-for",
+    "title": "Automating online data collection using web-scraping",
+    "section": "What I used it for",
+    "text": "What I used it for\n\nexporting stock developments\ndetermining median hotel prices\nextracting word frequency\ncircumventing copyright protection (flipbook) 🤫\nmaking a 💩ton of data entries"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#in-general",
+    "href": "slides/techlunch31032025.html#in-general",
+    "title": "Automating online data collection using web-scraping",
+    "section": "In general",
+    "text": "In general\n\nStructured data from webpages without export button\nAnalyzing online-data (forums, product reviews, …)\nSystematic interactions with specific sites\nFun personal projects 😊\n💭…\n\nBut!! Be mindful of the ethical, regulatory and legal impact of your project."
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#the-right-tool-for-the-job",
+    "href": "slides/techlunch31032025.html#the-right-tool-for-the-job",
+    "title": "Automating online data collection using web-scraping",
+    "section": "The right tool for the job…",
+    "text": "The right tool for the job…"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#selenium",
+    "href": "slides/techlunch31032025.html#selenium",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Selenium",
+    "text": "Selenium\n\nautomated interaction with a web-browser\n\n\n\nPro\n\ninteraction with web-browser\ninput data (e.g. forms, text)\ninteraction with dynamic sites (JavaScript)\n\n\nCon\n\nslow\nlearning curve\npain in the butt sometimes"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#beautifulsoup4",
+    "href": "slides/techlunch31032025.html#beautifulsoup4",
+    "title": "Automating online data collection using web-scraping",
+    "section": "BeautifulSoup4",
+    "text": "BeautifulSoup4\n\nextracts HTML structures and contents from webpages\n\n\n\nPro\n\nextracting html components of a single URL / a list of URLs where structure is standardized\neasy translations of objects into dataframes\n\n\nCon\n\ninteraction with web-browser\ninput data (e.g. forms, text)\ninteraction with dynamic sites (JavaScript)"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#beautifulsoup",
+    "href": "slides/techlunch31032025.html#beautifulsoup",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Beautifulsoup",
+    "text": "Beautifulsoup\nHow many chairs (and “sub-chairs”) do we have at the psychological Institute in Zurich?\n\n5 chairs and 35 “sub-chairs”\n5 chairs and 20 “sub-chairs”\n5 chairs and 29 “sub-chairs”"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#beautifulsoup-1",
+    "href": "slides/techlunch31032025.html#beautifulsoup-1",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Beautifulsoup",
+    "text": "Beautifulsoup\nHow many chairs (and “sub-chairs”) do we have at the psychological Institute in Zurich?\n\n5 chairs and 35 “sub-chairs”\n5 chairs and 20 “sub-chairs”\n5 chairs and 29 “sub-chairs”"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#beautifulsoup-2",
+    "href": "slides/techlunch31032025.html#beautifulsoup-2",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Beautifulsoup",
+    "text": "Beautifulsoup\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\n\n\nbase_url = \"https://www.psychologie.uzh.ch\"\noverview_url = base_url + \"/de/bereiche/uebersicht.html\"\n\nresponse = requests.get(overview_url)\nsoup = BeautifulSoup(response.text,\"html.parser\")\n\n\n\n## Level 1 subpages\nsubpage_links = []\nall_data = []\n\n\nfor link in soup.find_all(\"a\",href=True):\n    href = link[\"href\"]\n    if href.startswith(\"/de/bereiche/\") and href.endswith(\".html\"):\n        subpage_links.append(base_url+href)\n        print(base_url+href)\n\nfor subpage_url in subpage_links:\n    \n    print(f\"\\nScraping {subpage_url}\")\n    response = requests.get(subpage_url)\n    sub_soup = BeautifulSoup(response.text,\"html.parser\")\n\n    chair = sub_soup.find(\"h1\") ## e.g. Entwicklungspsychologie\n    chair_name = chair.get_text(strip=True)\n    print(chair_name)\n\n    tables = sub_soup.find_all(\"table\", class_=\"basic\") ## e.g. \"Entwicklungspsychologie: Kinder- und Säuglingsalter\"\n\n    for i, table in enumerate(tables):\n        print(f\"\\nTable {i+1} in {subpage_url}\")\n        table_data = []\n        table_data.append(chair_name)\n        rows = table.find_all(\"tr\")\n\n        for i, row in enumerate(rows):\n        \n            cells = row.find_all([\"th\",\"td\"])\n            length = len(cells)\n            print(f\"\\nlen: {length}\")\n\n            if length == 2:\n                title = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                table_data.append(title)\n                link = cells[1].find(\"a\",href=True)\n                table_data.append(link)\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 2\")\n                print(f\"\\nTitle: {title}\")\n                print(f\"\\nLink: {link}\")\n                if link:\n                    full_description = []\n                    subsubpage_link = base_url + link[\"href\"]\n                    subresponse = requests.get(subsubpage_link)\n                    subsub_soup = BeautifulSoup(subresponse.text, \"html.parser\")\n                    description = subsub_soup.find(\"section\", class_=\"ContentArea\")\n                    \n                    if description:\n                        section_text = description.get_text(strip=True, separator=\" \")\n                        full_description.append(section_text)\n                        \n                    else:\n                        print(\"No section found\")\n                    description_text = \" \".join(full_description)\n                    table_data.append(description_text)\n                    print(f\"\\ndescription: {description_text}\")\n            elif length == 1 and i == 1:\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 1\")\n                name = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                print(f\"\\nName: {name}\")\n                table_data.append(name)\n            elif length == 1 and i == 2:\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 1\")\n                position = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                print(f\"\\nPosition: {position}\")\n                table_data.append(position)\n            \n            print(table_data)\n            all_data.append(table_data)\n\ndf = pd.DataFrame(all_data)\ndf.to_csv(\"beautifulsoup.csv\",index=False,sep=\";\",quoting=1,encoding=\"utf-8-sig\")"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#selenium-1",
+    "href": "slides/techlunch31032025.html#selenium-1",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Selenium",
+    "text": "Selenium\nWhat is the most-watched video on the youtube channel of UZH?\n\nDer flexible Schweif des Prions vergiftet die Hirnzellen (en: the flexible tail of the prion poisons brain cells)\nSchwebebahn mit Hochtemperatur-Supraleitung (en: Suspension railroad with high-temperature superconductivity)\nMoosforschung (en: moss research)"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#selenium-2",
+    "href": "slides/techlunch31032025.html#selenium-2",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Selenium",
+    "text": "Selenium\nWhat is the most-watched video on the youtube channel of UZH?\n\nDer flexible Schweif des Prions vergiftet die Hirnzellen (en: the flexible tail of the prion poisons brain cells)\nSchwebebahn mit Hochtemperatur-Supraleitung (en: Suspension railroad with high-temperature superconductivity)\nMoosforschung (en: moss research)"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#selenium-3",
+    "href": "slides/techlunch31032025.html#selenium-3",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Selenium",
+    "text": "Selenium\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom selenium.webdriver.common.keys import Keys\nfrom selenium.webdriver.firefox.service import Service\nfrom webdriver_manager.firefox import GeckoDriverManager\nfrom selenium.webdriver.firefox.options import Options\nimport time\nimport re\nimport pandas as pd\n\ndata = [] \ndef text_before(text,delimiter):\n    return text.split(delimiter)[0] if delimiter in text else text\ndef text_after(text, delimiter):\n    return text.split(delimiter, 1)[1] if delimiter in text else \"\"\n\nfirefox_options = Options()\n#firefox_options.add_argument(\"--headless\")  # if you don't want to open a window\nfirefox_options.add_argument(\"--disable-gpu\")\n\ndriver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=firefox_options)\n\nchannel_url = 'https://www.youtube.com/@uzhch/videos'\ndriver.get(channel_url)\ntime.sleep(5)\n\n## accept all cookies\ntry:\n    accept_button = driver.find_element(By.XPATH, \"/html/body/c-wiz/div/div/div/div[2]/div[1]/div[3]/div[1]/form[2]/div/div/button/span\")\n    accept_button.click()\n    print(\"Cookies accepted.\")\nexcept Exception as e:\n    print(f\"Could not accept cookies: {e}\")\n\ntime.sleep(5)\n\nstart_height = driver.execute_script(\"return document.documentElement.scrollHeight\")\nprint(start_height)\nmax_attempts = 100\nattempt = 0\n\nwhile attempt &lt; max_attempts:    \n    html = driver.find_element(By.TAG_NAME, 'html')\n    html.send_keys(Keys.END)\n    time.sleep(3)\n    new_height = driver.execute_script(\"return document.documentElement.scrollHeight\")\n    print(new_height)\n    if new_height == start_height:\n        break\n    else: \n        start_height = new_height\n\n    attempt+=1\n\nlinks = driver.find_elements(By.CSS_SELECTOR, \"a#video-title-link\")\naria_labels = [link.get_attribute(\"aria-label\") for link in links]\nfor label in aria_labels:\n    print(label)\n\n    title = text_before(label,\"by Universität Zürich\")\n    print(title)\n    \n    views = text_after(label,\"by Universität Zürich\")\n    views = text_before(views,\" views \")\n    print(views)\n    \n    date = text_after(label, views+\" views \")\n    date = text_before(date,\" ago \")\n    print(date)\n    \n    duration = text_after(label,date+\" ago \")\n    print(duration)\n\n    data.append([title, views, date, duration])\n\ndf = pd.DataFrame(data, columns=[\"Title\", \"Views\", \"Date\", \"Duration\"])\ndf.to_csv(\"youtube_data.csv\",index=False,quoting=1,sep=\";\",encoding=\"utf-8\")"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#qa",
+    "href": "slides/techlunch31032025.html#qa",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Q&A",
+    "text": "Q&A"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#amount-of-videos-uploaded-per-year-on-uzhs-youtube-channel",
+    "href": "slides/techlunch31032025.html#amount-of-videos-uploaded-per-year-on-uzhs-youtube-channel",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Amount of videos uploaded per year on UZH’s youtube channel",
+    "text": "Amount of videos uploaded per year on UZH’s youtube channel"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#duration-of-videos-across-time",
+    "href": "slides/techlunch31032025.html#duration-of-videos-across-time",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Duration of Videos across time",
+    "text": "Duration of Videos across time"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#most-frequently-used-words-in-descriptions-of-our-sub-chairs",
+    "href": "slides/techlunch31032025.html#most-frequently-used-words-in-descriptions-of-our-sub-chairs",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Most frequently used words in descriptions of our (sub-)chairs",
+    "text": "Most frequently used words in descriptions of our (sub-)chairs"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#oh-hello-there",
+    "href": "slides/techlunch31032025.html#oh-hello-there",
+    "title": "Automating online data collection using web-scraping",
+    "section": "… oh hello there!",
+    "text": "… oh hello there!"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#length-of-descriptions-in-words",
+    "href": "slides/techlunch31032025.html#length-of-descriptions-in-words",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Length of descriptions in words",
+    "text": "Length of descriptions in words"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html",
+    "href": "slides/foko4_20250505.html",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "",
+    "text": "Slide 1"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#overview-will-be-hidden",
+    "href": "slides/foko4_20250505.html#overview-will-be-hidden",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Overview (will be hidden)",
+    "text": "Overview (will be hidden)\n\nWhat did I want to do?\nHow did I do it? -&gt; specification curve\nSoo… does it work?\n\nit depends :)\n\nwhen DOES it (NOT) work?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#research-questions",
+    "href": "slides/foko4_20250505.html#research-questions",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Research Questions",
+    "text": "Research Questions\n\n\nTo what degree can natural language data from think-aloud protocols be used to reliably classify different classes of experimentally induced psychological mechanisms?\nTo what extent are the language markers associated with each psychological mechanism unique to their respective class (vs. co-occurring across multiple classes)?\nIf there are language markers that overlap across classes of mechanisms, to what extent can classes of decision mechanisms still be distinguished from each other?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#method",
+    "href": "slides/foko4_20250505.html#method",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Method",
+    "text": "Method\n\nSpecification Curve Analysis\nComparisons of Model Specifications + Random Effects for overlapping Model Specifications"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#method-1",
+    "href": "slides/foko4_20250505.html#method-1",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Method",
+    "text": "Method\n\nSpecification Curve Analysis\nComparisons of Model Specifications + Random Effects for overlapping Model Specifications"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#method-2",
+    "href": "slides/foko4_20250505.html#method-2",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Method",
+    "text": "Method\nSpecification Curve Analysis"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#aim",
+    "href": "slides/foko4_20250505.html#aim",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Aim",
+    "text": "Aim\n\nCan we diagnose state-dependent mechanisms influencing decisions under risk and uncertainty by utilizing verbal protocols as data?\n\n\n\nlast time, I did ask you that I want to find out if we can use think-aloud protocols for diagnosing state-dependent mechanisms, this time I am telling you if I managed to do exactly that!"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#method-3",
+    "href": "slides/foko4_20250505.html#method-3",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Method",
+    "text": "Method\nModel Comparisons"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#specification-curve-analysis-of-auc-roc-across-585-classifiers-and-4-mechanisms",
+    "href": "slides/foko4_20250505.html#specification-curve-analysis-of-auc-roc-across-585-classifiers-and-4-mechanisms",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Specification Curve Analysis of AUC-ROC across 585 classifiers and 4 mechanisms",
+    "text": "Specification Curve Analysis of AUC-ROC across 585 classifiers and 4 mechanisms"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#what-makes-a-difference",
+    "href": "slides/foko4_20250505.html#what-makes-a-difference",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "What makes a difference?",
+    "text": "What makes a difference?\nData Preselection Strategy\n\nData Preselection StrategyResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 2: Schematic diagram of different data preselection strategies and how subsets are determined for each mechanism M and individual i.\n\n\n\n\n\nx\n\n\ny\n\n\nmodel_dataverse &lt;- stan_lmer(\n  aucroc ~ -1 + dataverse \n  + (1| type)\n  + (1| classifier)\n  + (1| specification)\n  + (1| preprocessing) \n  + (1| tested_class)\n  + (1| alternative_class), \n  data = data_aucroc, \n  prior = normal(0,10),\n  prior_intercept = normal(mean_aucroc,sd_aucroc),\n  chains = 4,\n  iter = 4000,\n  cores = 12\n)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#what-makes-a-difference-1",
+    "href": "slides/foko4_20250505.html#what-makes-a-difference-1",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "What makes a difference?",
+    "text": "What makes a difference?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#what-makes-a-difference-2",
+    "href": "slides/foko4_20250505.html#what-makes-a-difference-2",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "What makes a difference?",
+    "text": "What makes a difference?\nMechanism\n\n\nFigure 7: Visual illustration of the four manipulations to which participants were subjected in a between-subjects design."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#what-makes-a-difference-3",
+    "href": "slides/foko4_20250505.html#what-makes-a-difference-3",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "What makes a difference?",
+    "text": "What makes a difference?\nMechanism\n\n\nFigure 6: Visual illustration of the four manipulations to which participants were subjected in a between-subjects design."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#specification-curve-analysis-1",
+    "href": "slides/foko4_20250505.html#specification-curve-analysis-1",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Specification Curve Analysis",
+    "text": "Specification Curve Analysis\n\n\nFigure 4: Specification curve analysis of 585 unique configurations across 4 mechanisms."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#data-preselection-strategy",
+    "href": "slides/foko4_20250505.html#data-preselection-strategy",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Data Preselection Strategy",
+    "text": "Data Preselection Strategy\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 5: Schematic diagram of different data preselection strategies and how subsets are determined for each mechanism M and individual i.\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: Main effects of data preselection strategy relative to overall AUC-ROC. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComparison\nFull Data\nGT diff. Baseline\nGT diff. All\nSR diff. Baseline\nSR diff. All\n\n\n\n\nAgainst overall AUC-ROC\n-0.046 [-0.051; -0.040]\n0.030 [0.024; 0.035]\n0.027 [0.022; 0.032]\n0.007 [0.002; 0.013]\n-0.018 [-0.024; -0.013]\n\n\nFull Data\n–\n-0.075 [-0.081; -0.069]\n0.075 [0.070; 0.081]\n0.028 [0.022; 0.033]\n0.053 [0.047; 0.059]\n\n\nGT diff. Baseline\n–\n–\n0.003 [-0.004; 0.009]\n-0.048 [-0.054; -0.042]\n-0.022 [-0.028; -0.017]\n\n\nGT diff. All\n–\n–\n–\n-0.045 [-0.051; -0.039]\n-0.020 [-0.026; -0.013]\n\n\nSR diff. Baseline\n–\n–\n–\n–\n-0.026 [-0.032; -0.019]\n\n\n\n\n\n\nmodel_dataverse &lt;- stan_lmer(\n  aucroc ~ -1 + dataverse \n  + (1| type)\n  + (1| classifier)\n  + (1| specification)\n  + (1| preprocessing) \n  + (1| tested_class)\n  + (1| alternative_class), \n  data = data_aucroc, \n  prior = normal(0,10),\n  prior_intercept = normal(mean_aucroc,sd_aucroc),\n  chains = 4,\n  iter = 4000,\n  cores = 12\n)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#model-selection",
+    "href": "slides/foko4_20250505.html#model-selection",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Model Selection",
+    "text": "Model Selection\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 7: Schematic for model selection and specifications within the model(s). Random Forest, Mean Top-5 + Random Forest, and Top-5 Similarity are all based on SBERT embeddings. Deepseek R1 only classified texts based on data that was not preprocessed.\n\n\n\n\n\n\n\n\n\n\n\nFigure 8: Results of group level classifier relative to overall AUC-ROC, and Results of specifications relative to overall performance of group level classifier. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\nClassifier\nΔ AUC-ROC\n95% CI\n\n\n\n\nDeepseek R1\n0.06\n[0.04; 0.07]\n\n\nRandom Forest\n0.04\n[0.03; 0.05]\n\n\nMean Top-5 + RF\n0.00\n[-0.01; 0.01]\n\n\nTop-5 Similarity\n-0.06\n[-0.07; -0.05]\n\n\n\n\n\nmodel_hierarchical_aucroc &lt;- stan_lmer(\n  aucroc ~ -1 + classifier \n    + (1 | classifier:config_combined)\n    + (1 | type)\n    + (1 | dataverse)\n    + (1 | tested_class)\n    + (1 | alternative_class),\n  data = data_aucroc,\n  prior = normal(0,10), ## data has been centered around 0 before calculations\n  prior_intercept =  normal(mean_aucroc,sd_aucroc), ## data has been centered around 0 before calculations\n  chains = 4, \n  iter = 4000,\n  cores=12,\n  refresh = 100\n)\n\n\n\n\n[Footnote]: Deepseek R1 was only performed on no pre-processing due to time and budget reasons. One run of all classifications with Deepseek R1 took about 60-70 hours. Additionally, there is evidence that for Chat-Based Decoders, pre-processing is not as relevant as for embedding-generating algorithms (source, source, source), and may even benefit them by providing additional context."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#comparison-type",
+    "href": "slides/foko4_20250505.html#comparison-type",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Comparison Type",
+    "text": "Comparison Type\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 9: Schematic for comparison types of comparing mechanisms against each other.\n\n\n\n\n\n\n\n\n\n\n\nFigure 10: Results of group level comparison type relative to overall AUC-ROC. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\n\nOne vs. One\nOne vs. All\nAll vs. All\n\n\n\n\n0.009[0.005; 0.012]\n−0.019[−0.024; −0.013]\n−0.009[−0.014; −0.003]\n\n\n\n\n\n\nmodel_type &lt;- stan_glm(\n  aucroc ~ -1 + type \n  + (1| classifier)\n  + (1| specification)\n  + (1| dataverse)\n  + (1| tested_class)\n  + (1| alternative_class), \n  data = data_aucroc, \n  prior = normal(0,10),\n  prior_intercept = normal(mean_aucroc,sd_aucroc),\n  chains = 4,\n  iter = 4000,\n  cores = 12\n)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#mechanism",
+    "href": "slides/foko4_20250505.html#mechanism",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Mechanism",
+    "text": "Mechanism\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 11: Visual illustration of the four manipulations to which participants were subjected in a between-subjects design.\n\n\n\n\n\n\n\n\nClassification performance of mechanisms relative to overall AUC-ROC.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCondition\nAgainst All\nAgainst Other\nAgainst Baseline\nAgainst Knowledge\nAgainst Need\n\n\n\n\nBaseline\n-0.011 [-0.083, 0.061]\n-0.059 [-0.131, 0.014]\n–\n–\n–\n\n\nKnowledge\n0.035 [-0.037, 0.106]\n0.026 [-0.046, 0.098]\n0.040 [-0.032, 0.111]\n–\n–\n\n\nNeed\n-0.008 [-0.080, 0.062]\n-0.033 [-0.105, 0.038]\n-0.011 [-0.083, 0.059]\n0.019 [-0.052, 0.091]\n–\n\n\nSocial Norms\n0.009 [-0.062, 0.081]\n0.029 [-0.043, 0.100]\n0.028 [-0.043, 0.099]\n0.061 [-0.011, 0.132]\n0.017 [-0.055, 0.087]\n\n\n\n\n\n\nmodel_mechanisms &lt;- stan_glmer(\n  aucroc ~ -1 + tested_class \n    + (1 | classifier:config_combined) \n    + (1|preprocessing)\n    + (1|alternative_class)\n    + (1|type)\n    + (1|dataverse),\n  data = data_aucroc,\n  prior = normal(0,10),\n  prior_intercept =  normal(mean_aucroc,sd_aucroc),\n  chains = 4, \n  iter = 4000,\n  cores=12,\n  refresh = 1\n)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#specification-curve-analysis",
+    "href": "slides/foko4_20250505.html#specification-curve-analysis",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Specification Curve Analysis",
+    "text": "Specification Curve Analysis\n\n\n\n\nMeasurement metric (AUC-ROC / h-score)\nDominance of two data preselection strategies without clear pattern between the two emerging\nDominance of two classifiers with indication that one is better than the other\nNo visible pattern\n\n\n\n\n\n\n\n\n\nFigure 1: Graph depicting symbolic specification curve analysis. (grey dotted line indicates how “dots” in categories indicate the specific configuration.)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#model-comparisons",
+    "href": "slides/foko4_20250505.html#model-comparisons",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Model Comparisons",
+    "text": "Model Comparisons\n\n\n\n\n\n\n\nFigure 2: Paired samples of specifications tested against each other, paired by common denominators through other specifications."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#model-comparisons-1",
+    "href": "slides/foko4_20250505.html#model-comparisons-1",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Model Comparisons",
+    "text": "Model Comparisons\n\n\n\n\n\n\n\nFigure 3: Graph depicting symbolic parameter comparison of two specifications."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#reduced-specification-curve",
+    "href": "slides/foko4_20250505.html#reduced-specification-curve",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Reduced Specification Curve",
+    "text": "Reduced Specification Curve\n\n\nFigure 12: Reduced Plot with only influential classifiers displayed. Classifiers displayed are Deepseek R1 with prompt type “both” and all SBERT based algorithms embedding pooling MAX. All data used is based on transcriptions that were not further pre-processed. Only “One vs. One” and “One vs. All” comparisons are displayed."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#implications-of-results",
+    "href": "slides/foko4_20250505.html#implications-of-results",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Implications of Results",
+    "text": "Implications of Results\n\nUtilizing verbal protocols as data can be used to diagnose state-specific mechanisms influencing decisions under risk and uncertainty!\nPrompt-based strategies and embedding-based strategies (if done right) work equally well.\nConsider what population the data comes from."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#limitations",
+    "href": "slides/foko4_20250505.html#limitations",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Limitations",
+    "text": "Limitations\n\nSample size: ~75 per group\n\nNo additional fine-tuning in models - potential to work even better with fine-tuned weights\n\nControllability of context by experimental setup"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#your-questions",
+    "href": "slides/foko4_20250505.html#your-questions",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Your questions?",
+    "text": "Your questions?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#my-questions",
+    "href": "slides/foko4_20250505.html#my-questions",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "My questions",
+    "text": "My questions\n\nHow can I assess the impact of credibly better specifications (effect size)?\nResearcher degrees of (reporting) freedom?\n\n\nAnd some administrative questions for Renato\n\nlicence / app - okay to be public?\nhand in of master’s thesis: email, to whom, who to CC and what to consider?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#research-questions-1",
+    "href": "slides/foko4_20250505.html#research-questions-1",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Research Questions",
+    "text": "Research Questions\n\n\nTo what degree can natural language data from think-aloud protocols be used to reliably classify different classes of experimentally induced psychological mechanisms?\nTo what extent are the language markers associated with each psychological mechanism unique to their respective class (vs. co-occurring across multiple classes)?\nIf there are language markers that overlap across classes of mechanisms, to what extent can classes of decision mechanisms still be distinguished from each other?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#section",
+    "href": "slides/foko4_20250505.html#section",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "",
+    "text": "… and for the last time … \n\n(unless you decide to fail me and I have to rewrite another Master’s thesis)…\n\n\n\nThank you!"
+  }
+]

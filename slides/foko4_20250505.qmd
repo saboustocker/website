@@ -1,0 +1,328 @@
+---
+title: <small>A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty</small>
+subtitle: "FoKo 4"
+author: "Sabou Rani Stocker"
+date: 05 05 2025
+format: 
+  revealjs:
+    footer: FoKo 4 | Sabou Rani Stocker | CBDR
+date-format: "DD.MM.YY"
+---
+
+
+
+# Aim and Research Questions
+
+## Aim
+
+:::{.v-center-container}
+
+ Can we diagnose state-dependent mechanisms influencing decisions under risk and uncertainty by utilizing verbal protocols as data?
+:::
+
+
+:::{.notes}
+- last time, I did ask you that I want to find out if we can use think-aloud protocols for diagnosing state-dependent mechanisms, this time I am telling you if I managed to do exactly that! 
+:::
+
+## Research Questions {.smaller}
+
+:::{.v-center-container}
+1. To what degree can natural language data from think-aloud protocols be used to reliably classify different classes of experimentally induced psychological mechanisms?
+2. To what extent are the language markers associated with each psychological mechanism unique to their respective class (vs. co-occurring across multiple classes)?
+3. If there are language markers that overlap across classes of mechanisms, to what extent can classes of decision mechanisms still be distinguished from each other?
+:::
+
+## Research Questions {.smaller}
+
+:::{.v-center-container}
+
+1. **To what degree can natural language data from think-aloud protocols be used to reliably classify different classes of experimentally induced psychological mechanisms?**
+2. To what extent are the language markers associated with each psychological mechanism unique to their respective class (vs. co-occurring across multiple classes)?
+3. If there are language markers that overlap across classes of mechanisms, to what extent can classes of decision mechanisms still be distinguished from each other?
+:::
+
+# Method
+
+## Specification Curve Analysis
+
+::: {.columns}
+
+
+::: {.column width="50%"}
+
+<div style="font-size: 0.75em">
+a. Measurement metric (AUC-ROC / h-score)
+b. Dominance of two data preselection strategies without clear pattern between the two emerging
+c. Dominance of two classifiers with indication that one is better than the other
+d. No visible pattern
+
+
+</div>
+
+:::
+
+::: {.column width="50%"}
+![Graph depicting symbolic specification curve analysis. (grey dotted line indicates how "dots" in categories indicate the specific configuration.)](images_foko/specification_curve_explanation.svg){#fig-exp-spec-analysis width=80%}
+:::
+
+
+:::
+
+
+## Model Comparisons
+
+:::{.v-center-container}
+![Paired samples of specifications tested against each other, paired by common denominators through other specifications.](images_foko/samples_together_example.svg){#fig-pairedsamples width=1600px}
+:::
+
+## Model Comparisons
+
+:::{.v-center-container}
+![Graph depicting symbolic parameter comparison of two specifications.](images_foko/parameter_estimates_example.svg){#fig-parameterestimates}
+:::
+
+# Results
+
+:::{.notes}
+- only for RQ1
+:::
+
+## Specification Curve Analysis
+
+![Specification curve analysis of 585 unique configurations across 4 mechanisms.](images_foko/fullplot_aucroc.svg){#fig-aucroc fig-align="center"}
+
+
+## Data Preselection Strategy 
+
+::: {.panel-tabset}
+
+### Definition
+![Schematic diagram of different data preselection strategies and how subsets are determined for each mechanism *M* and individual *i*.](images_foko/data_preselection_strategy.svg){#fig-data-preselection fig-align="center"}
+
+### Results 
+
+![Main effects of data preselection strategy relative to overall AUC-ROC. Lines indicate 90%-HDI.](images_foko/plot_dataverse_aucroc.svg){#fig-dataverse-aucroc}
+
+### Tabular Results
+
+<div style = "font-size: 0.5em">
+| Comparison               | Full Data                      | GT diff. Baseline             | GT diff. All                  | SR diff. Baseline             | SR diff. All                 |
+|--------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------|
+| Against overall AUC-ROC  | -0.046 [-0.051; -0.040]       | 0.030 [0.024; 0.035]          | 0.027 [0.022; 0.032]          | 0.007 [0.002; 0.013]          |  -0.018 [-0.024; -0.013]     |
+| Full Data                | –                             | -0.075 [-0.081; -0.069]       | 0.075 [0.070; 0.081]          | 0.028 [0.022; 0.033]          | 0.053 [0.047; 0.059]         |
+| GT diff. Baseline        | –                             | –                             | 0.003 [-0.004; 0.009]         | -0.048 [-0.054; -0.042]       | -0.022 [-0.028; -0.017]      |
+| GT diff. All             | –                             | –                             | –                             | -0.045 [-0.051; -0.039]       | -0.020 [-0.026; -0.013]      |
+| SR diff. Baseline        | –                             | –                             | –                             | –                             | -0.026 [-0.032; -0.019]      |
+</div>
+
+### Code
+
+```R
+model_dataverse <- stan_lmer(
+  aucroc ~ -1 + dataverse 
+  + (1| type)
+  + (1| classifier)
+  + (1| specification)
+  + (1| preprocessing) 
+  + (1| tested_class)
+  + (1| alternative_class), 
+  data = data_aucroc, 
+  prior = normal(0,10),
+  prior_intercept = normal(mean_aucroc,sd_aucroc),
+  chains = 4,
+  iter = 4000,
+  cores = 12
+)
+```
+
+:::
+
+
+## Model Selection 
+
+:::{.panel-tabset}
+
+### Definition
+![Schematic for model selection and specifications within the model(s). Random Forest, Mean Top-5 + Random Forest, and Top-5 Similarity are all based on SBERT embeddings. Deepseek R1 only classified texts based on data that was not preprocessed.](images_foko/model_config.svg){#fig-model-config fig-align="center"}
+
+### Results
+
+![Results of group level classifier relative to overall AUC-ROC, and Results of specifications relative to overall performance of group level classifier. Lines indicate 90%-HDI.](images_foko/aucroc_models.svg){#fig-aucroc-models}
+
+### Tabular Results
+
+| Classifier             | Δ AUC-ROC        | 95% CI             |
+|------------------------|------------------|--------------------|
+| Deepseek R1            | 0.06             | [0.04; 0.07]       |
+| Random Forest          | 0.04             | [0.03; 0.05]       |
+| Mean Top-5 + RF        | 0.00             | [-0.01; 0.01]      |
+| Top-5 Similarity       | -0.06            | [-0.07; -0.05]     |
+
+### Code
+```R
+model_hierarchical_aucroc <- stan_lmer(
+  aucroc ~ -1 + classifier 
+    + (1 | classifier:config_combined)
+    + (1 | type)
+    + (1 | dataverse)
+    + (1 | tested_class)
+    + (1 | alternative_class),
+  data = data_aucroc,
+  prior = normal(0,10), ## data has been centered around 0 before calculations
+  prior_intercept =  normal(mean_aucroc,sd_aucroc), ## data has been centered around 0 before calculations
+  chains = 4, 
+  iter = 4000,
+  cores=12,
+  refresh = 100
+)
+```
+
+:::
+
+
+:::{.notes}
+[Footnote]: Deepseek R1 was only performed on no pre-processing due to time and budget reasons. One run of all classifications with Deepseek R1 took about 60-70 hours. Additionally, there is evidence that for Chat-Based Decoders, pre-processing is not as relevant as for embedding-generating algorithms (source, source, source), and may even benefit them by providing additional context. 
+:::
+
+## Comparison Type
+
+:::{.panel-tabset}
+
+### Definition
+![Schematic for comparison types of comparing mechanisms against each other.](images_foko/comparison_type.svg){#fig-comparison-type fig-align="center" width="60%"}
+
+### Results
+
+![Results of group level comparison type relative to overall AUC-ROC. Lines indicate 90%-HDI.](images_foko/plot_type_aucroc.svg){#fig-comparisontype}
+
+### Tabular Results
+
+<div style = "font-size: 0.7em">
+One vs. One         |  One vs. All           | All vs. All           |
+|-------------------|------------------------|----------------------|
+0.009[0.005; 0.012] | −0.019[−0.024; −0.013] | −0.009[−0.014; −0.003] |
+</div>
+
+### Code
+```R
+model_type <- stan_glm(
+  aucroc ~ -1 + type 
+  + (1| classifier)
+  + (1| specification)
+  + (1| dataverse)
+  + (1| tested_class)
+  + (1| alternative_class), 
+  data = data_aucroc, 
+  prior = normal(0,10),
+  prior_intercept = normal(mean_aucroc,sd_aucroc),
+  chains = 4,
+  iter = 4000,
+  cores = 12
+)
+```
+
+:::
+
+## Mechanism 
+
+:::{.panel-tabset}
+
+### Definition
+
+![Visual illustration of the four manipulations to which participants were subjected in a between-subjects design.](images_foko/mechanisms.svg){#fig-mechanism fig-align="center"}
+
+### Results
+
+![Classification performance of mechanisms relative to overall AUC-ROC.](images_foko/aucroc_mechanisms.svg)
+
+### Tabular Results
+
+<div style = "font-size: 0.5em">
+| Condition     | Against All            | Against Other          | Against Baseline       | Against Knowledge        | Against Need             |
+|---------------|------------------------|-------------------------|-------------------------|---------------------------|---------------------------|
+| Baseline      | -0.011 [-0.083, 0.061] | -0.059 [-0.131, 0.014] | –                       | –                         | –                         |
+| Knowledge     | 0.035 [-0.037, 0.106]  | 0.026 [-0.046, 0.098]  | 0.040 [-0.032, 0.111]  | –                         | –                         |
+| Need          | -0.008 [-0.080, 0.062] | -0.033 [-0.105, 0.038] | -0.011 [-0.083, 0.059] | 0.019 [-0.052, 0.091]     | –                         |
+| Social Norms  | 0.009 [-0.062, 0.081]  | 0.029 [-0.043, 0.100]  | 0.028 [-0.043, 0.099]  | 0.061 [-0.011, 0.132]     | 0.017 [-0.055, 0.087]     |
+</div>
+
+### Code 
+
+```R
+model_mechanisms <- stan_glmer(
+  aucroc ~ -1 + tested_class 
+    + (1 | classifier:config_combined) 
+    + (1|preprocessing)
+    + (1|alternative_class)
+    + (1|type)
+    + (1|dataverse),
+  data = data_aucroc,
+  prior = normal(0,10),
+  prior_intercept =  normal(mean_aucroc,sd_aucroc),
+  chains = 4, 
+  iter = 4000,
+  cores=12,
+  refresh = 1
+)
+```
+:::
+
+## Reduced Specification Curve 
+
+![Reduced Plot with only influential classifiers displayed. Classifiers displayed are Deepseek R1 with prompt type "both" and all SBERT based algorithms embedding pooling MAX. All data used is based on transcriptions that were not further pre-processed. Only "One vs. One" and "One vs. All" comparisons are displayed.](images_foko/reduced_plot_for_renato.svg){#fig-reducedplot}
+
+# Discussion
+
+## Implications of Results
+
+- Utilizing verbal protocols as data *can* be used to diagnose state-specific mechanisms influencing decisions under risk and uncertainty! 
+- Prompt-based strategies and embedding-based strategies (if done right) work equally well.
+- Consider what population the data comes from.
+
+## Limitations
+
+- Sample size: ~75 per group
+    - No additional fine-tuning in models - potential to work even better with fine-tuned weights
+- Controllability of context by experimental setup
+
+
+# Q & A
+
+## Your questions?{.center}
+
+## My questions
+
+1. How can I assess the impact of credibly better specifications (effect size)? 
+2. Researcher degrees of (reporting) freedom? 
+
+. . .
+
+**And some administrative questions for Renato**
+
+- licence / app - okay to be public? 
+- hand in of master's thesis: email, to whom, who to CC and what to consider? 
+
+## {.center }
+
+
+
+... and for the last time ...
+<br>
+
+
+::: {.fragment fragment-index=1 style="color: lightgray;"}
+
+(unless you decide to fail me and I have to rewrite another Master's thesis)...
+
+:::
+
+<br>
+
+
+::: {.fragment fragment-index=2}
+
+**Thank you!**
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXRlNHhvaW4zbTNxOXR4bXRxOWIwMzg1NGh2eGN2bXM1aXg0MGd2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/osjgQPWRx3cac/giphy.gif){height=250px}
+:::

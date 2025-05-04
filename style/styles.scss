@@ -121,12 +121,6 @@ $light-grey-5: #D7D7D7;
   font-size: 0.5em;
 }
 
-.quote-p {
-  color: $blue-3;
-  font-size: 0.7em;
-  font-style: oblique;
-  padding-left: 40px;
-}
 
 .source-p {
   color: $blue-4;
@@ -140,14 +134,14 @@ $light-grey-5: #D7D7D7;
 
 .caption {
   text-align: center;
-  font-size: 0.8em;
-  color: $grey-4;
+  font-size: 14px !important;
+  color: $blue-2;
 }
 
 .slides figcaption {
   text-align: center;
-  font-size: 0.8em;
-  color: $grey-4;
+  font-size: 14px !important;
+  color: $blue-2;
 }
 
 .panel-tabset-tabby{
@@ -156,8 +150,8 @@ $light-grey-5: #D7D7D7;
 }
 
 .slides blockquote {
-  color: $blue-4;
-  border-left: 4px solid $blue-4;
+  color: $blue-3;
+  border-left: 4px solid $blue-3;
 }
 
 .quarto-title-author-name{
@@ -185,6 +179,13 @@ $light-grey-5: #D7D7D7;
 
 .reveal ol {
     padding-left: 0.5em; /* Adjust as needed */
+}
+
+.v-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
 }
 
 /*-- scss:mixins --*/
