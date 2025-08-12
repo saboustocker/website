@@ -301,6 +301,7 @@ model_mechanisms <- stan_glmer(
 
 :::{.center-p}
 ![](images_foko/qrcode.png){width=40%}
+<br>
 https://saboustocker.shinyapps.io/webapp_analysis/
 :::
 

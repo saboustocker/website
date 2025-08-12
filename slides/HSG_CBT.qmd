@@ -1,0 +1,308 @@
+---
+title: Job Talk @ IBT-HSG
+author: "Sabou Rani Stocker"
+date: 15 08 2025
+format: 
+  revealjs:
+    footer: Job Talk @ IBT-HSG | Sabou Rani Stocker | 15.08.2025
+date-format: "DD.MM.YY"
+bibliography:
+  - "../bibliography/nlplibrary.bib"
+  - "../bibliography/privatelibrary.bib"
+---
+
+## About Me
+
+:::{.v-center-container}
+![](images_hsg/werdegang.svg)
+:::
+
+##
+
+
+::: {.columns}
+
+::: {.column width="30%"}
+### Nature
+![](images_hsg/hikeyhike.svg){style="max-height:60vh; height:auto;"}
+:::
+
+
+::: {.column width="30%"}
+::: {.fragment}
+### Nurture
+![](images_hsg/hobbies.svg){style="max-height:60vh; height:auto;"}
+:::
+:::
+
+
+::: {.column width="30%"}
+::: {.fragment}
+### Nugget
+![](images_hsg/nugnug.svg){style="max-height:60vh; height:auto;"}
+:::
+:::
+:::
+
+# Research Project
+
+:::{.center-p}
+## A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty {.center}
+
+<small>Master's Thesis Sabou Rani Stocker</small>
+<br>
+<small>Cognitive and Behavioral Decision Research</small>
+:::
+
+## Background
+
+:::{.incremental}
+* **many proposed** state-dependent influences, <br> **little research** on their occurence in real life
+
+  :::{.source-p}
+  @lobTaxonomyStateSpecificPsychological2025, @hollemanRealWorldApproachIts2020, @quinanEcologicalValidityEvaluating2015
+  :::
+
+* natural language as data and NLP as method
+
+  :::{.source-p}
+  @binzHowShouldAdvancement2025, @ostrovskyVerbalReportsData2024,
+  :::
+
+* promising first results but **no systematic evaluation**
+
+  :::{.source-p}
+  @heitzLinguisticFeaturesExtracted2024, @fischerReuseNeedlePay2024, @bhatiaExploringVariabilityRisk2024, and others
+  :::
+:::
+
+## This Study
+
+### Aim
+Systematic comparison of algorithms harnessing NLP on their **capabilities and limitations in diagnosing state-specific mechanisms** influencing people when making decisions
+<br>
+<br>
+
+### Research Question
+How reliably can we **identify state-specific mechanisms from natural language** influencing people in decision-making?
+
+
+## Methods {.smaller}
+### Data Collection
+
+* randomized-controlled study
+* online experiment: n = 320
+* four groups: 
+    * baseline
+    * social norms  <span class="source-p">@gerrardDualprocessApproachHealth2008 </span>
+    * knowledge on situation <span class = "source-p">@fischhoffHowSafeSafe1978 </span>
+    * need <span class = "source-p">@mishraDecisionMakingRiskIntegrating2014, @mishraRelativeStateModel2017 </span>
+* simultaneous performance of think-aloud protocols <span class="source-p"> @payneThinkingAloudInsights1994, @smagorinskyThinkingSpeechProtocol1998, and others <span>
+
+
+## Methods 
+### Data Collection
+
+
+* randomized-controlled study 
+* online experiment, $n$ = 320
+* four groups (baseline, social norms, knowledge on situation, need)
+* simultaneous performance of think-aloud protocols 
+
+:::{.source-p}
+@payneThinkingAloudInsights1994, @smagorinskyThinkingSpeechProtocol1998, and others
+:::
+
+##
+ * four groups: 
+      * baseline
+      * social norms <span class="source-p">@gerrardDualprocessApproachHealth2008</span>
+      * knowledge on situation <span class="source-p">@fischhoffHowSafeSafe1978</span>
+      * need <span class="source-p">@mishraDecisionMakingRiskIntegrating2014, @mishraRelativeStateModel2017</span>
+
+<img src="images_hsg/all_conditions.svg" >
+
+<span class="source-p">Manipulation implementations based on: @freyEcologyRiskMapping2024, @pietersAttentionCaptureTransfer2004, @mitchellAreProductAttribute1981, @shiUseProductScarcity2020, @gerrardDualprocessApproachHealth2008, and others</span>
+
+
+
+## Methods - Analysis
+
+:::{.center-p}
+:::{.fragment .fade-out}
+<img src="images_hsg/overview_nugget.svg" style="max-height:38vh">
+:::
+
+:::{.fragment .fade-in-then-out}
+<img src="images_hsg/section1.svg" style=" position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; opacity: 1; pointer-events: none;">
+:::
+
+:::{.fragment .fade-in-then-out}
+<img src="images_hsg/section2.svg" style=" position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; opacity: 1; pointer-events: none;">
+:::
+
+:::{.fragment .fade-in-then-out}
+<img src="images_hsg/section3.svg" style=" position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; opacity: 1; pointer-events: none;">
+:::
+
+:::{.fragment .fade-in-then-out}
+<img src="images_hsg/section4.svg" style=" position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; opacity: 1; pointer-events: none;">
+:::
+
+:::{.fragment .fade-in-then-out}
+<img src="images_hsg/section5.svg" style=" position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; opacity: 1; pointer-events: none;">
+:::
+
+:::{.fragment .fade-in-then-out}
+<img src="images_hsg/section6.svg" style=" position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; opacity: 1; pointer-events: none;">
+:::
+:::
+
+## Methods - Analysis
+
+### Specification Curve Analysis
+
+:::{.source-p} 
+@simonsohnSpecificationCurveAnalysis2020
+:::
+
+
+* 315 main specifications
+* 3'900 specifications including robustness checks
+
+
+## Results
+
+![](images_hsg/fullplot_aucroc.svg){.absolute top=55 left=0}
+
+:::{.fragment .fade-in}
+![](images_hsg/fullplot_good.svg){.absolute top=55 left=0}
+:::
+
+:::{.fragment .fade-in}
+![](images_hsg/fullplot_bad.svg){.absolute top=55 left=0}
+:::
+
+## Results
+### Statistical Significance
+
+::: {.panel-tabset}
+### Primary Results
+::::{.center-p}
+![](images_hsg/primary_results.svg)
+::::
+
+### Further Results
+::::{.center-p}
+![](images_hsg/other_results.svg)
+::::
+
+:::
+
+## Implications
+
+### Methodological
+* natural language as data *does* work, but only under specific circumstances
+* methodological approach $\geq$ mechanism
+* validation with real world data pending
+
+### Practical
+* ???
+
+# Possible Future Research
+
+## The Privacy-Convenience-Paradox
+
+- privacy calculus = (formal) theory on mental cost-benefit-analysis for sharing private information 
+
+<span class = "source-p">@dinevExtendedPrivacyCalculus2006, @bekeConsumersPrivacyCalculus2022</span>
+- privacy-convenience-paradox = preference and actual behavior are different from each other <span class="source-p"> @ackermanPrivacyEcommerceExamining1999, @zhangPrivacyVsConvenience2024 </span>
+  
+  $\Rightarrow$ Privacy-Calculus theory cannot explain privacy-convenience-paradox
+
+- Decision-research: Humans do not act rational <span class="source-p">@arkesHowBadIncoherence2016 </span>
+
+  $\rightarrow$ Bounded Rationality <span class="source-p">@simonBehavioralModelRational1955 </span>
+
+  $\rightarrow$ Dual-Process Theory <span class="source-p">@stanovichIndividualDifferencesReasoning2000, @kahnemanThinkingFastSlow2011 </span>
+
+## Research Question
+
+(How) can we explain discrepancies between preference and behavior in online disclosure of private data through theories of bounded rationality and heuristics targeting the fast systems of dual-process systems?
+
+## Hypotheses
+
+H1: The preference-behavior discrepancy is higher when information complexity (IC) is high.
+
+H2: The preference-behavior discrepancy is higher when the ease of withdrawing (EW) consent is low.
+
+H3: Information complexity and the ease of withdrawing consent are interdependent moderators of the preference-behavior discrepancy.
+
+## Experimental Setup
+
+:::{.center-p}
+![](images_hsg/experiemntal_setup.svg)
+:::
+
+:::{.source-p}
+Material inspired by @nouwensDarkPatternsGDPR2020, @litman-navarroOpinionWeRead2019, @acquistiNudgesPrivacySecurity2018, @zhangPrivacyVsConvenience2024
+:::
+
+:::{.fragment .fade-in}
+![](images_hsg/indeed.svg){.absolute top=100 left=0 width="350" height="300"}
+
+![](images_hsg/bbc.svg){.absolute top=25 left=500 width="350" height="300"}
+
+<span class="source-p">Images Source: bbc.uk.com, ch.indeed.com</span>
+:::
+
+## Formal Modelling of the Privacy-Convenience-Paradox
+
+:::{.center-p}
+![](images_hsg/model.svg)
+:::
+
+:::{.source-p}
+Model adapted from: @bekeConsumersPrivacyCalculus2022, @dinevExtendedPrivacyCalculus2006
+:::
+
+## Formal Modelling of the Privacy-Convenience Paradox
+-> colors don't work :( nugets make it seksei please :-(
+
+:::{.column}
+
+$$
+{\text{ABH} \overset{?}{=}}
+\left\{
+\begin{aligned}
+&\frac{1}{1+e^{-k(\text{WTS})}} \\[0.6em]
+&\frac{1}{1+e^{-k(\text{WTS}+\color{3062FF}{\alpha \cdot \text{IC}}+\color{A4D233}{\beta \cdot \text{EW}})}} \\[0.6em]
+&\frac{1}{1+e^{-k(\text{WTS}+\color{3062FF}{\alpha \cdot \text{IC}}+\color{A4D233}{\beta \cdot \text{EW}} + \color{A27200}{\gamma\cdot \text{IC}\cdot \text{EW}})}}
+\end{aligned}
+\right.
+$$
+
+:::
+
+:::{.column}
+
+| Hypothesis | Formalization |
+|----|----|
+| H1  | $\alpha \neq 0$ |
+| H2 | $\beta \neq 0$  |
+| H3 | $\gamma \neq 0$  |
+
+:::
+
+## The bigger Picture
+- scientific regret minimization
+- what shape is the decision? 
+- what relevance does it have?
+- HELP
+
+## Next Steps??
+
+# What a fucking shitshow this is... 
+(I am bad at presentation)
+
+# References

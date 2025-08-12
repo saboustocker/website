@@ -124,7 +124,7 @@ $light-grey-5: #D7D7D7;
 
 .source-p {
   color: $blue-4;
-  font-size: 0.5em;
+  font-size: 0.3em;
   text-align: end;
 }
 
@@ -182,10 +182,19 @@ $light-grey-5: #D7D7D7;
 }
 
 .smaller-p {
-  font-size: 0.75em;
+  font-size: 0.5em;
   color: #4D4D4D;
 }
 
+ul {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+li {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
 /*-- containers --*/
 
@@ -194,6 +203,12 @@ $light-grey-5: #D7D7D7;
   justify-content: center;
   align-items: center;
   height: 80%;
+}
+
+iframe.fullscreen-iframe {
+  width: 100%;
+  height: 70%;
+  border: none;
 }
 
 /*-- scss:mixins --*/

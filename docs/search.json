@@ -4,7 +4,140 @@
     "href": "index.html",
     "title": "Slides",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nMay 4, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nJob Talk @ IBT-HSG\n\n\n \n\n\n\n\n\n\nAug 11, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#aim",
+    "href": "slides/foko4_20250505.html#aim",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Aim",
+    "text": "Aim\n\nCan we diagnose state-dependent mechanisms influencing decisions under risk and uncertainty by utilizing verbal protocols as data?\n\n\n\nlast time, I did ask you that I want to find out if we can use think-aloud protocols for diagnosing state-dependent mechanisms, this time I am telling you if I managed to do exactly that!\ntoday’s agenda:\n\naim and research questions\nmethodology\nresults\ncontext\nlimitations\nquestions"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#research-questions",
+    "href": "slides/foko4_20250505.html#research-questions",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Research Questions",
+    "text": "Research Questions\n\n\nTo what degree can natural language data from think-aloud protocols be used to reliably classify different classes of experimentally induced psychological mechanisms?\nTo what extent are the language markers associated with each psychological mechanism unique to their respective class (vs. co-occurring across multiple classes)?\nIf there are language markers that overlap across classes of mechanisms, to what extent can classes of decision mechanisms still be distinguished from each other?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#research-questions-1",
+    "href": "slides/foko4_20250505.html#research-questions-1",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Research Questions",
+    "text": "Research Questions\n\n\nTo what degree can natural language data from think-aloud protocols be used to reliably classify different classes of experimentally induced psychological mechanisms?\nTo what extent are the language markers associated with each psychological mechanism unique to their respective class (vs. co-occurring across multiple classes)?\nIf there are language markers that overlap across classes of mechanisms, to what extent can classes of decision mechanisms still be distinguished from each other?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#specification-curve-analysis",
+    "href": "slides/foko4_20250505.html#specification-curve-analysis",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Specification Curve Analysis",
+    "text": "Specification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n\n\n\n\nMeasurement metric (AUC-ROC / h-score)\nDominance of two data preselection strategies without clear pattern between the two emerging\nDominance of two classifiers with indication that one is better than the other\nNo visible pattern\n\n\n\n\n\n\n\n\n\nFigure 1: Graph depicting symbolic specification curve analysis. (grey dotted line indicates how “dots” in categories indicate the specific configuration.)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#model-comparisons",
+    "href": "slides/foko4_20250505.html#model-comparisons",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Model Comparisons",
+    "text": "Model Comparisons\n\nBased on approaches suggested by Law (2021), Lacoste, Laviolette, and Marchand (2012), and others.\n\n\n\n\n\n\n\n\n\nFigure 2: Paired samples of specifications tested against each other, paired by common denominators through other specifications."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#model-comparisons-1",
+    "href": "slides/foko4_20250505.html#model-comparisons-1",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Model Comparisons",
+    "text": "Model Comparisons\n\nBased on approaches suggested by Law (2021), Lacoste, Laviolette, and Marchand (2012), and others.\n\n\n\n\n\n\n\n\nFigure 3: Graph depicting symbolic parameter comparison of two specifications."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#specification-curve-analysis-1",
+    "href": "slides/foko4_20250505.html#specification-curve-analysis-1",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Specification Curve Analysis",
+    "text": "Specification Curve Analysis\n\n\nFigure 4: Specification curve analysis of 585 unique configurations across 4 mechanisms."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#data-preselection-strategy",
+    "href": "slides/foko4_20250505.html#data-preselection-strategy",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Data Preselection Strategy",
+    "text": "Data Preselection Strategy\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 5: Schematic diagram of different data preselection strategies and how subsets are determined for each mechanism M and individual i.\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: Main effects of data preselection strategy relative to overall AUC-ROC. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComparison\nFull Data\nGT diff. Baseline\nGT diff. All\nSR diff. Baseline\nSR diff. All\n\n\n\n\nAgainst overall AUC-ROC\n-0.046 [-0.051; -0.040]\n0.030 [0.024; 0.035]\n0.027 [0.022; 0.032]\n0.007 [0.002; 0.013]\n-0.018 [-0.024; -0.013]\n\n\nFull Data\n–\n-0.075 [-0.081; -0.069]\n0.075 [0.070; 0.081]\n0.028 [0.022; 0.033]\n0.053 [0.047; 0.059]\n\n\nGT diff. Baseline\n–\n–\n0.003 [-0.004; 0.009]\n-0.048 [-0.054; -0.042]\n-0.022 [-0.028; -0.017]\n\n\nGT diff. All\n–\n–\n–\n-0.045 [-0.051; -0.039]\n-0.020 [-0.026; -0.013]\n\n\nSR diff. Baseline\n–\n–\n–\n–\n-0.026 [-0.032; -0.019]\n\n\n\n\n\n\nmodel_dataverse &lt;- stan_lmer(\n  aucroc ~ -1 + dataverse \n  + (1| type)\n  + (1| classifier)\n  + (1| specification)\n  + (1| preprocessing) \n  + (1| tested_class)\n  + (1| alternative_class), \n  data = data_aucroc, \n  prior = normal(0,10),\n  prior_intercept = normal(mean_aucroc,sd_aucroc),\n  chains = 4,\n  iter = 4000,\n  cores = 12\n)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#model-selection",
+    "href": "slides/foko4_20250505.html#model-selection",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Model Selection",
+    "text": "Model Selection\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 7: Schematic for model selection and specifications within the model(s). Random Forest, Mean Top-5 + Random Forest, and Top-5 Similarity are all based on SBERT embeddings. Deepseek R1 only classified texts based on data that was not preprocessed.\n\n\n\n\n\n\n\n\n\n\n\nFigure 8: Results of group level classifier relative to overall AUC-ROC, and Results of specifications relative to overall performance of group level classifier. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\nClassifier\nΔ AUC-ROC\n95% CI\n\n\n\n\nDeepseek R1\n0.06\n[0.04; 0.07]\n\n\nRandom Forest\n0.04\n[0.03; 0.05]\n\n\nMean Top-5 + RF\n0.00\n[-0.01; 0.01]\n\n\nTop-5 Similarity\n-0.06\n[-0.07; -0.05]\n\n\n\n\n\nmodel_hierarchical_aucroc &lt;- stan_lmer(\n  aucroc ~ -1 + classifier \n    + (1 | classifier:config_combined)\n    + (1 | type)\n    + (1 | dataverse)\n    + (1 | tested_class)\n    + (1 | alternative_class),\n  data = data_aucroc,\n  prior = normal(0,10), ## data has been centered around 0 before calculations\n  prior_intercept =  normal(mean_aucroc,sd_aucroc), ## data has been centered around 0 before calculations\n  chains = 4, \n  iter = 4000,\n  cores=12,\n  refresh = 100\n)\n\n\n\n\n[Footnote]: Deepseek R1 was only performed on no pre-processing due to time and budget reasons. One run of all classifications with Deepseek R1 took about 60-70 hours. Additionally, there is evidence that for Chat-Based Decoders, pre-processing is not as relevant as for embedding-generating algorithms (source, source, source), and may even benefit them by providing additional context."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#comparison-type",
+    "href": "slides/foko4_20250505.html#comparison-type",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Comparison Type",
+    "text": "Comparison Type\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 9: Schematic for comparison types of comparing mechanisms against each other.\n\n\n\n\n\n\n\n\n\n\n\nFigure 10: Results of group level comparison type relative to overall AUC-ROC. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\n\nOne vs. One\nOne vs. All\nAll vs. All\n\n\n\n\n0.009[0.005; 0.012]\n−0.019[−0.024; −0.013]\n−0.009[−0.014; −0.003]\n\n\n\n\n\n\nmodel_type &lt;- stan_glm(\n  aucroc ~ -1 + type \n  + (1| classifier)\n  + (1| specification)\n  + (1| dataverse)\n  + (1| tested_class)\n  + (1| alternative_class), \n  data = data_aucroc, \n  prior = normal(0,10),\n  prior_intercept = normal(mean_aucroc,sd_aucroc),\n  chains = 4,\n  iter = 4000,\n  cores = 12\n)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#mechanism",
+    "href": "slides/foko4_20250505.html#mechanism",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Mechanism",
+    "text": "Mechanism\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 11: Visual illustration of the four manipulations to which participants were subjected in a between-subjects design.\n\n\n\n\n\n\n\n\nClassification performance of mechanisms relative to overall AUC-ROC.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCondition\nAgainst All\nAgainst Other\nAgainst Baseline\nAgainst Knowledge\nAgainst Need\n\n\n\n\nBaseline\n-0.011 [-0.083, 0.061]\n-0.059 [-0.131, 0.014]\n–\n–\n–\n\n\nKnowledge\n0.035 [-0.037, 0.106]\n0.026 [-0.046, 0.098]\n0.040 [-0.032, 0.111]\n–\n–\n\n\nNeed\n-0.008 [-0.080, 0.062]\n-0.033 [-0.105, 0.038]\n-0.011 [-0.083, 0.059]\n0.019 [-0.052, 0.091]\n–\n\n\nSocial Norms\n0.009 [-0.062, 0.081]\n0.029 [-0.043, 0.100]\n0.028 [-0.043, 0.099]\n0.061 [-0.011, 0.132]\n0.017 [-0.055, 0.087]\n\n\n\n\n\n\nmodel_mechanisms &lt;- stan_glmer(\n  aucroc ~ -1 + tested_class \n    + (1 | classifier:config_combined) \n    + (1|preprocessing)\n    + (1|alternative_class)\n    + (1|type)\n    + (1|dataverse),\n  data = data_aucroc,\n  prior = normal(0,10),\n  prior_intercept =  normal(mean_aucroc,sd_aucroc),\n  chains = 4, \n  iter = 4000,\n  cores=12,\n  refresh = 1\n)"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#reduced-specification-curve",
+    "href": "slides/foko4_20250505.html#reduced-specification-curve",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Reduced Specification Curve",
+    "text": "Reduced Specification Curve\n\n\nFigure 12: Reduced Plot with only influential classifiers displayed. Classifiers displayed are Deepseek R1 with prompt type “both” and all SBERT based algorithms embedding pooling MAX. All data used is based on transcriptions that were not further pre-processed. Only “One vs. One” and “One vs. All” comparisons are displayed."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#explore-the-results-yourself",
+    "href": "slides/foko4_20250505.html#explore-the-results-yourself",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Explore the Results yourself",
+    "text": "Explore the Results yourself\n\n  https://saboustocker.shinyapps.io/webapp_analysis/"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#implications-of-results",
+    "href": "slides/foko4_20250505.html#implications-of-results",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Implications of Results",
+    "text": "Implications of Results\n\nUtilizing verbal protocols as data can be used to diagnose state-specific mechanisms influencing decisions under risk and uncertainty!\nPrompt-based strategies and embedding-based strategies (if done right) work equally well.\nConsider what population the data comes from."
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#limitations",
+    "href": "slides/foko4_20250505.html#limitations",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Limitations",
+    "text": "Limitations\n\nSample size: ~75 per group\n\nNo additional fine-tuning in models - potential to work even better with fine-tuned weights\n\nControllability of context by experimental setup"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#your-questions",
+    "href": "slides/foko4_20250505.html#your-questions",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Your questions?",
+    "text": "Your questions?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#my-questions",
+    "href": "slides/foko4_20250505.html#my-questions",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "My questions",
+    "text": "My questions\n\nHow can I assess the impact of credibly better specifications (effect size)?\nResearcher degrees of (reporting) freedom?\n\n\n\nAnd some administrative questions for Renato\n\nIs it okay for me to have public repositories in relation to my Master’s thesis on my personal GitHub (applet)?\nHow should we submit the final Master’s Thesis (PDF as E-Mail attachment, print, to whom, submission in official UZH tool by us or supervisor, …)?"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#section",
+    "href": "slides/foko4_20250505.html#section",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "",
+    "text": "… and for the last time … \n\n(unless you decide to fail me and I have to rewrite another Master’s thesis)…\n\n\n\n\nThank you!"
+  },
+  {
+    "objectID": "slides/foko4_20250505.html#bibliography",
+    "href": "slides/foko4_20250505.html#bibliography",
+    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n\n\n\nLacoste, Alexandre, Francois Laviolette, and Mario Marchand. 2012. “Bayesian Comparison of Machine Learning Algorithms on Single and Multiple Datasets.” 2012.\n\n\nLaw, Jonny. 2021. “Bayesian Inference and Functional Programming - Model Comparison with Hierarchical Models.” September 27, 2021. https://jonnylaw.rocks/posts/2021-09-27-model-comparison/.\n\n\nSimonsohn, Uri, Joseph P. Simmons, and Leif D. Nelson. 2020. “Specification Curve Analysis.” Nature Human Behaviour 4 (11): 1208–14. https://doi.org/10.1038/s41562-020-0912-z."
   },
   {
     "objectID": "slides/techlunch31032025.html#our-program",
@@ -133,213 +266,283 @@
     "text": "Length of descriptions in words"
   },
   {
-    "objectID": "slides/foko4_20250505.html",
-    "href": "slides/foko4_20250505.html",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "objectID": "slides/HSG_CBT.html#section",
+    "href": "slides/HSG_CBT.html#section",
+    "title": "Job Talk @ IBT-HSG",
     "section": "",
-    "text": "Slide 1"
+    "text": "Nature\n\n\n\nNurture\n\n\n\n\nNugget"
   },
   {
-    "objectID": "slides/foko4_20250505.html#overview-will-be-hidden",
-    "href": "slides/foko4_20250505.html#overview-will-be-hidden",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Overview (will be hidden)",
-    "text": "Overview (will be hidden)\n\nWhat did I want to do?\nHow did I do it? -&gt; specification curve\nSoo… does it work?\n\nit depends :)\n\nwhen DOES it (NOT) work?"
+    "objectID": "slides/HSG_CBT.html#about-me",
+    "href": "slides/HSG_CBT.html#about-me",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "About Me",
+    "text": "About Me"
   },
   {
-    "objectID": "slides/foko4_20250505.html#research-questions",
-    "href": "slides/foko4_20250505.html#research-questions",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Research Questions",
-    "text": "Research Questions\n\n\nTo what degree can natural language data from think-aloud protocols be used to reliably classify different classes of experimentally induced psychological mechanisms?\nTo what extent are the language markers associated with each psychological mechanism unique to their respective class (vs. co-occurring across multiple classes)?\nIf there are language markers that overlap across classes of mechanisms, to what extent can classes of decision mechanisms still be distinguished from each other?"
+    "objectID": "slides/HSG_CBT.html#a-specification-curve-evaluation-of-nlp-classifiers-for-state-specific-psychological-mechanisms-influencing-decisions-under-risk-and-uncertainty",
+    "href": "slides/HSG_CBT.html#a-specification-curve-evaluation-of-nlp-classifiers-for-state-specific-psychological-mechanisms-influencing-decisions-under-risk-and-uncertainty",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "text": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\nMaster’s Thesis Sabou Rani Stocker  Cognitive and Behavioral Decision Research"
   },
   {
-    "objectID": "slides/foko4_20250505.html#method",
-    "href": "slides/foko4_20250505.html#method",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Method",
-    "text": "Method\n\nSpecification Curve Analysis\nComparisons of Model Specifications + Random Effects for overlapping Model Specifications"
+    "objectID": "slides/HSG_CBT.html#background",
+    "href": "slides/HSG_CBT.html#background",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Background",
+    "text": "Background\n\nmany proposed state-dependent influences,  little research on their occurence in real life\n\nLob, Fischer, and Frey (2025), Holleman et al. (2020), Quinan et al. (2015)\n\nnatural language as data and NLP as method\n\nBinz et al. (2025), Ostrovsky and Newell (2024),\n\npromising first results but no systematic evaluation\n\nHeitz, Schneider, and Langer (2024), Fischer, Lob, and Frey (2024), Bhatia (2024), and others"
   },
   {
-    "objectID": "slides/foko4_20250505.html#method-1",
-    "href": "slides/foko4_20250505.html#method-1",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Method",
-    "text": "Method\n\nSpecification Curve Analysis\nComparisons of Model Specifications + Random Effects for overlapping Model Specifications"
+    "objectID": "slides/HSG_CBT.html#this-study",
+    "href": "slides/HSG_CBT.html#this-study",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "This Study",
+    "text": "This Study\nAim\nSystematic comparison of algorithms harnessing NLP on their capabilities and limitations in diagnosing state-specific mechanisms influencing people when making decisions  \nResearch Question\nHow reliably can we identify state-specific mechanisms from natural language influencing people in decision-making?"
   },
   {
-    "objectID": "slides/foko4_20250505.html#method-2",
-    "href": "slides/foko4_20250505.html#method-2",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Method",
-    "text": "Method\nSpecification Curve Analysis"
+    "objectID": "slides/HSG_CBT.html#methods",
+    "href": "slides/HSG_CBT.html#methods",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods",
+    "text": "Methods\nData Collection\n\nrandomized-controlled study\nonline experiment: n = 320\nfour groups:\n\nbaseline\nsocial norms Gerrard et al. (2008) \nknowledge on situation Fischhoff et al. (1978) \nneed Mishra (2014), Mishra, Barclay, and Sparks (2017) \n\nsimultaneous performance of think-aloud protocols  Payne (1994), Smagorinsky (1998), and others"
   },
   {
-    "objectID": "slides/foko4_20250505.html#aim",
-    "href": "slides/foko4_20250505.html#aim",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Aim",
-    "text": "Aim\n\nCan we diagnose state-dependent mechanisms influencing decisions under risk and uncertainty by utilizing verbal protocols as data?\n\n\n\nlast time, I did ask you that I want to find out if we can use think-aloud protocols for diagnosing state-dependent mechanisms, this time I am telling you if I managed to do exactly that!\ntoday’s agenda:\n\naim and research questions\nmethodology\nresults\ncontext\nlimitations\nquestions"
+    "objectID": "slides/HSG_CBT.html#methods-1",
+    "href": "slides/HSG_CBT.html#methods-1",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods",
+    "text": "Methods\nData Collection\n\nrandomized-controlled study\nonline experiment, \\(n\\) = 320\nfour groups (baseline, social norms, knowledge on situation, need)\nsimultaneous performance of think-aloud protocols\n\n\nPayne (1994), Smagorinsky (1998), and others"
   },
   {
-    "objectID": "slides/foko4_20250505.html#method-3",
-    "href": "slides/foko4_20250505.html#method-3",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Method",
-    "text": "Method\nModel Comparisons"
+    "objectID": "slides/HSG_CBT.html#methods-2",
+    "href": "slides/HSG_CBT.html#methods-2",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods",
+    "text": "Methods\nAnalysis\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\\(\\Rightarrow\\) 315 main algorithms\n\\(\\Rightarrow\\) 3’900 algorithms including robustness checks"
   },
   {
-    "objectID": "slides/foko4_20250505.html#specification-curve-analysis-of-auc-roc-across-585-classifiers-and-4-mechanisms",
-    "href": "slides/foko4_20250505.html#specification-curve-analysis-of-auc-roc-across-585-classifiers-and-4-mechanisms",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Specification Curve Analysis of AUC-ROC across 585 classifiers and 4 mechanisms",
-    "text": "Specification Curve Analysis of AUC-ROC across 585 classifiers and 4 mechanisms"
+    "objectID": "slides/HSG_CBT.html#methods-3",
+    "href": "slides/HSG_CBT.html#methods-3",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods",
+    "text": "Methods\nAnalysis\n\nSpecification Curve Analysis  Simonsohn, Simmons, and Nelson (2020) \n\\(\\Rightarrow\\) 315 main algorithms\n\\(\\Rightarrow\\) 3’900 algorithms including robustness checks"
   },
   {
-    "objectID": "slides/foko4_20250505.html#what-makes-a-difference",
-    "href": "slides/foko4_20250505.html#what-makes-a-difference",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "What makes a difference?",
-    "text": "What makes a difference?\nData Preselection Strategy\n\nData Preselection StrategyResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 2: Schematic diagram of different data preselection strategies and how subsets are determined for each mechanism M and individual i.\n\n\n\n\n\nx\n\n\ny\n\n\nmodel_dataverse &lt;- stan_lmer(\n  aucroc ~ -1 + dataverse \n  + (1| type)\n  + (1| classifier)\n  + (1| specification)\n  + (1| preprocessing) \n  + (1| tested_class)\n  + (1| alternative_class), \n  data = data_aucroc, \n  prior = normal(0,10),\n  prior_intercept = normal(mean_aucroc,sd_aucroc),\n  chains = 4,\n  iter = 4000,\n  cores = 12\n)"
+    "objectID": "slides/HSG_CBT.html#methods-4",
+    "href": "slides/HSG_CBT.html#methods-4",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods",
+    "text": "Methods\nAnalysis\n\nSpecification Curve Analysis:  Simonsohn, Simmons, and Nelson (2020) \n\n3 data preselection strategies (Include all, Include only objective perception, include only subjective perception)\n4 preprocessing methods (No preprocessing, pre-processing, normalizing, removal of common words)\n4 classification algorithms (Deepseek R1, SBERT, RAG, RAG+SBERT)\n2 classification paradigms (One vs. One, One vs. Rest)\n4 mechanisms\n\n\n\\(\\Rightarrow\\) 315 main algorithms compared"
   },
   {
-    "objectID": "slides/foko4_20250505.html#what-makes-a-difference-1",
-    "href": "slides/foko4_20250505.html#what-makes-a-difference-1",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "What makes a difference?",
-    "text": "What makes a difference?"
+    "objectID": "slides/HSG_CBT.html#results",
+    "href": "slides/HSG_CBT.html#results",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Results",
+    "text": "Results"
   },
   {
-    "objectID": "slides/foko4_20250505.html#what-makes-a-difference-2",
-    "href": "slides/foko4_20250505.html#what-makes-a-difference-2",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "What makes a difference?",
-    "text": "What makes a difference?\nMechanism\n\n\nFigure 7: Visual illustration of the four manipulations to which participants were subjected in a between-subjects design."
+    "objectID": "slides/HSG_CBT.html#methods-keep",
+    "href": "slides/HSG_CBT.html#methods-keep",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods (keep?)",
+    "text": "Methods (keep?)\nAnalysis"
   },
   {
-    "objectID": "slides/foko4_20250505.html#what-makes-a-difference-3",
-    "href": "slides/foko4_20250505.html#what-makes-a-difference-3",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "What makes a difference?",
-    "text": "What makes a difference?\nMechanism\n\n\nFigure 6: Visual illustration of the four manipulations to which participants were subjected in a between-subjects design."
+    "objectID": "slides/HSG_CBT.html#about-me-nugget-fix-this-shit",
+    "href": "slides/HSG_CBT.html#about-me-nugget-fix-this-shit",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "About Me (nugget fix this shit)",
+    "text": "About Me (nugget fix this shit)"
   },
   {
-    "objectID": "slides/foko4_20250505.html#specification-curve-analysis-1",
-    "href": "slides/foko4_20250505.html#specification-curve-analysis-1",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Specification Curve Analysis",
-    "text": "Specification Curve Analysis\n\n\nFigure 4: Specification curve analysis of 585 unique configurations across 4 mechanisms."
+    "objectID": "slides/HSG_CBT.html#about-me-1",
+    "href": "slides/HSG_CBT.html#about-me-1",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "About Me",
+    "text": "About Me"
   },
   {
-    "objectID": "slides/foko4_20250505.html#data-preselection-strategy",
-    "href": "slides/foko4_20250505.html#data-preselection-strategy",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Data Preselection Strategy",
-    "text": "Data Preselection Strategy\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 5: Schematic diagram of different data preselection strategies and how subsets are determined for each mechanism M and individual i.\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: Main effects of data preselection strategy relative to overall AUC-ROC. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComparison\nFull Data\nGT diff. Baseline\nGT diff. All\nSR diff. Baseline\nSR diff. All\n\n\n\n\nAgainst overall AUC-ROC\n-0.046 [-0.051; -0.040]\n0.030 [0.024; 0.035]\n0.027 [0.022; 0.032]\n0.007 [0.002; 0.013]\n-0.018 [-0.024; -0.013]\n\n\nFull Data\n–\n-0.075 [-0.081; -0.069]\n0.075 [0.070; 0.081]\n0.028 [0.022; 0.033]\n0.053 [0.047; 0.059]\n\n\nGT diff. Baseline\n–\n–\n0.003 [-0.004; 0.009]\n-0.048 [-0.054; -0.042]\n-0.022 [-0.028; -0.017]\n\n\nGT diff. All\n–\n–\n–\n-0.045 [-0.051; -0.039]\n-0.020 [-0.026; -0.013]\n\n\nSR diff. Baseline\n–\n–\n–\n–\n-0.026 [-0.032; -0.019]\n\n\n\n\n\n\nmodel_dataverse &lt;- stan_lmer(\n  aucroc ~ -1 + dataverse \n  + (1| type)\n  + (1| classifier)\n  + (1| specification)\n  + (1| preprocessing) \n  + (1| tested_class)\n  + (1| alternative_class), \n  data = data_aucroc, \n  prior = normal(0,10),\n  prior_intercept = normal(mean_aucroc,sd_aucroc),\n  chains = 4,\n  iter = 4000,\n  cores = 12\n)"
+    "objectID": "slides/HSG_CBT.html#results-1",
+    "href": "slides/HSG_CBT.html#results-1",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Results",
+    "text": "Results\nStatistical Significance\n\nPrimary ResultsFurther Results"
   },
   {
-    "objectID": "slides/foko4_20250505.html#model-selection",
-    "href": "slides/foko4_20250505.html#model-selection",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Model Selection",
-    "text": "Model Selection\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 7: Schematic for model selection and specifications within the model(s). Random Forest, Mean Top-5 + Random Forest, and Top-5 Similarity are all based on SBERT embeddings. Deepseek R1 only classified texts based on data that was not preprocessed.\n\n\n\n\n\n\n\n\n\n\n\nFigure 8: Results of group level classifier relative to overall AUC-ROC, and Results of specifications relative to overall performance of group level classifier. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\nClassifier\nΔ AUC-ROC\n95% CI\n\n\n\n\nDeepseek R1\n0.06\n[0.04; 0.07]\n\n\nRandom Forest\n0.04\n[0.03; 0.05]\n\n\nMean Top-5 + RF\n0.00\n[-0.01; 0.01]\n\n\nTop-5 Similarity\n-0.06\n[-0.07; -0.05]\n\n\n\n\n\nmodel_hierarchical_aucroc &lt;- stan_lmer(\n  aucroc ~ -1 + classifier \n    + (1 | classifier:config_combined)\n    + (1 | type)\n    + (1 | dataverse)\n    + (1 | tested_class)\n    + (1 | alternative_class),\n  data = data_aucroc,\n  prior = normal(0,10), ## data has been centered around 0 before calculations\n  prior_intercept =  normal(mean_aucroc,sd_aucroc), ## data has been centered around 0 before calculations\n  chains = 4, \n  iter = 4000,\n  cores=12,\n  refresh = 100\n)\n\n\n\n\n[Footnote]: Deepseek R1 was only performed on no pre-processing due to time and budget reasons. One run of all classifications with Deepseek R1 took about 60-70 hours. Additionally, there is evidence that for Chat-Based Decoders, pre-processing is not as relevant as for embedding-generating algorithms (source, source, source), and may even benefit them by providing additional context."
+    "objectID": "slides/HSG_CBT.html#results-2",
+    "href": "slides/HSG_CBT.html#results-2",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Results",
+    "text": "Results"
   },
   {
-    "objectID": "slides/foko4_20250505.html#comparison-type",
-    "href": "slides/foko4_20250505.html#comparison-type",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Comparison Type",
-    "text": "Comparison Type\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 9: Schematic for comparison types of comparing mechanisms against each other.\n\n\n\n\n\n\n\n\n\n\n\nFigure 10: Results of group level comparison type relative to overall AUC-ROC. Lines indicate 90%-HDI.\n\n\n\n\n\n\n\n\n\nOne vs. One\nOne vs. All\nAll vs. All\n\n\n\n\n0.009[0.005; 0.012]\n−0.019[−0.024; −0.013]\n−0.009[−0.014; −0.003]\n\n\n\n\n\n\nmodel_type &lt;- stan_glm(\n  aucroc ~ -1 + type \n  + (1| classifier)\n  + (1| specification)\n  + (1| dataverse)\n  + (1| tested_class)\n  + (1| alternative_class), \n  data = data_aucroc, \n  prior = normal(0,10),\n  prior_intercept = normal(mean_aucroc,sd_aucroc),\n  chains = 4,\n  iter = 4000,\n  cores = 12\n)"
+    "objectID": "slides/HSG_CBT.html#results-3",
+    "href": "slides/HSG_CBT.html#results-3",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Results",
+    "text": "Results\nStatistical Significance\n\nPrimary ResultsFurther Results"
   },
   {
-    "objectID": "slides/foko4_20250505.html#mechanism",
-    "href": "slides/foko4_20250505.html#mechanism",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Mechanism",
-    "text": "Mechanism\n\nDefinitionResultsTabular ResultsCode\n\n\n\n\n\n\n\n\nFigure 11: Visual illustration of the four manipulations to which participants were subjected in a between-subjects design.\n\n\n\n\n\n\n\n\nClassification performance of mechanisms relative to overall AUC-ROC.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCondition\nAgainst All\nAgainst Other\nAgainst Baseline\nAgainst Knowledge\nAgainst Need\n\n\n\n\nBaseline\n-0.011 [-0.083, 0.061]\n-0.059 [-0.131, 0.014]\n–\n–\n–\n\n\nKnowledge\n0.035 [-0.037, 0.106]\n0.026 [-0.046, 0.098]\n0.040 [-0.032, 0.111]\n–\n–\n\n\nNeed\n-0.008 [-0.080, 0.062]\n-0.033 [-0.105, 0.038]\n-0.011 [-0.083, 0.059]\n0.019 [-0.052, 0.091]\n–\n\n\nSocial Norms\n0.009 [-0.062, 0.081]\n0.029 [-0.043, 0.100]\n0.028 [-0.043, 0.099]\n0.061 [-0.011, 0.132]\n0.017 [-0.055, 0.087]\n\n\n\n\n\n\nmodel_mechanisms &lt;- stan_glmer(\n  aucroc ~ -1 + tested_class \n    + (1 | classifier:config_combined) \n    + (1|preprocessing)\n    + (1|alternative_class)\n    + (1|type)\n    + (1|dataverse),\n  data = data_aucroc,\n  prior = normal(0,10),\n  prior_intercept =  normal(mean_aucroc,sd_aucroc),\n  chains = 4, \n  iter = 4000,\n  cores=12,\n  refresh = 1\n)"
+    "objectID": "slides/HSG_CBT.html#implications",
+    "href": "slides/HSG_CBT.html#implications",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Implications",
+    "text": "Implications\nMethodological\n\nnatural language as data does work, but only under specific circumstances\nmethodological approach \\(\\geq\\) mechanism\nvalidation with real world data pending\n\nPractical\n\n???"
   },
   {
-    "objectID": "slides/foko4_20250505.html#specification-curve-analysis",
-    "href": "slides/foko4_20250505.html#specification-curve-analysis",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Specification Curve Analysis",
-    "text": "Specification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n\n\n\n\nMeasurement metric (AUC-ROC / h-score)\nDominance of two data preselection strategies without clear pattern between the two emerging\nDominance of two classifiers with indication that one is better than the other\nNo visible pattern\n\n\n\n\n\n\n\n\n\nFigure 1: Graph depicting symbolic specification curve analysis. (grey dotted line indicates how “dots” in categories indicate the specific configuration.)"
+    "objectID": "slides/HSG_CBT.html#at-the-heart-of-it",
+    "href": "slides/HSG_CBT.html#at-the-heart-of-it",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "At the heart of it…",
+    "text": "At the heart of it…\n(probably won’t present that slide… ) * In what ways are thoughts and behaviors of humans shaped? What “rules” do they follow? * How do these rules validate or question our existing theories on human thought and behavior? * How can we model human thought and behavior in applied settings? * What does this tell us about the theoretic and practical implications?\nIBT in particular: * has a focus on behavioral science and technology within an applied perspective, as HSG is a business school * is situated within a highly relevant and evolving field, as it particularly looks at human interaction together with technology"
   },
   {
-    "objectID": "slides/foko4_20250505.html#model-comparisons",
-    "href": "slides/foko4_20250505.html#model-comparisons",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Model Comparisons",
-    "text": "Model Comparisons\n\nBased on approaches suggested by Law (2021), Lacoste, Laviolette, and Marchand (2012), and others.\n\n\n\n\n\n\n\n\n\nFigure 2: Paired samples of specifications tested against each other, paired by common denominators through other specifications."
+    "objectID": "slides/HSG_CBT.html#the-privacy-convenience-paradox",
+    "href": "slides/HSG_CBT.html#the-privacy-convenience-paradox",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "The Privacy-Convenience-Paradox",
+    "text": "The Privacy-Convenience-Paradox\n\nprivacy calculus = (formal) theory on mental cost-benefit-analysis for sharing private information Dinev and Hart (2006), Beke et al. (2022)\nprivacy-convenience-paradox = preference and actual behavior are different from each other  Ackerman, Cranor, and Reagle (1999), Zhang, Koivumäki, and Chalmers (2024) \n\\(\\Rightarrow\\) Privacy-Calculus theory cannot explain privacy-convenience-paradox\nDecision-research: Humans do not act rational Arkes, Gigerenzer, and Hertwig (2016) \n\\(\\rightarrow\\) Bounded Rationality Simon (1955) \n\\(\\rightarrow\\) Dual-Process Theory Stanovich and West (2000), Kahneman (2011)"
   },
   {
-    "objectID": "slides/foko4_20250505.html#model-comparisons-1",
-    "href": "slides/foko4_20250505.html#model-comparisons-1",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Model Comparisons",
-    "text": "Model Comparisons\n\nBased on approaches suggested by Law (2021), Lacoste, Laviolette, and Marchand (2012), and others.\n\n\n\n\n\n\n\n\nFigure 3: Graph depicting symbolic parameter comparison of two specifications."
+    "objectID": "slides/HSG_CBT.html#the-privacy-convenience-paradox-1",
+    "href": "slides/HSG_CBT.html#the-privacy-convenience-paradox-1",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "The Privacy-Convenience-Paradox",
+    "text": "The Privacy-Convenience-Paradox\n-&gt; formalize the theory \\[\n\\text{ABH} = \\frac{1}{1+\\exp^{-k(\\text{PRICAL}-x_0)}}\n\\]\n\\[\nx_0 = mean(PRICAL)\n\\]"
   },
   {
-    "objectID": "slides/foko4_20250505.html#reduced-specification-curve",
-    "href": "slides/foko4_20250505.html#reduced-specification-curve",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Reduced Specification Curve",
-    "text": "Reduced Specification Curve\n\n\nFigure 12: Reduced Plot with only influential classifiers displayed. Classifiers displayed are Deepseek R1 with prompt type “both” and all SBERT based algorithms embedding pooling MAX. All data used is based on transcriptions that were not further pre-processed. Only “One vs. One” and “One vs. All” comparisons are displayed."
+    "objectID": "slides/HSG_CBT.html#co-creation-vs.-consumption-domain-specificity-of-ai-adoption-in-generative-tasks",
+    "href": "slides/HSG_CBT.html#co-creation-vs.-consumption-domain-specificity-of-ai-adoption-in-generative-tasks",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Co-Creation vs. Consumption: Domain-specificity of AI-Adoption in Generative Tasks",
+    "text": "Co-Creation vs. Consumption: Domain-specificity of AI-Adoption in Generative Tasks\n\nwhy is it important?\n\nAI is getting more used to “replace” human\nAI can make you faster and get you better products at the cost of “learning”\ndeclarative knowledge (probably) decreases (?)\n\nquestions: when do people co-create with AI help, and when do they consume?\n\ndomains: Scientific Writing, Creative Writing, Coding, Art, …\n\nrelevance: AI is sometimes wrong! Where are the risks that people do not question and consume instead of co-create? Where do people stop taking ownership?\nrelation to IBT: has to do with de Bellis’ idea of autonomy / automation, has to do with philosophy of technology adoption / has to do with “meaning of life” questions"
   },
   {
-    "objectID": "slides/foko4_20250505.html#implications-of-results",
-    "href": "slides/foko4_20250505.html#implications-of-results",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Implications of Results",
-    "text": "Implications of Results\n\nUtilizing verbal protocols as data can be used to diagnose state-specific mechanisms influencing decisions under risk and uncertainty!\nPrompt-based strategies and embedding-based strategies (if done right) work equally well.\nConsider what population the data comes from."
+    "objectID": "slides/HSG_CBT.html#why-does-the-privacy-calculus-not-hold",
+    "href": "slides/HSG_CBT.html#why-does-the-privacy-calculus-not-hold",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Why does the Privacy-Calculus not hold?",
+    "text": "Why does the Privacy-Calculus not hold?\n\nBounded Rationality = humans work with limited information, rely on cognitive shortcuts, and settle for satisficing options Simon (1955)\nDual-Process-Systems = humans default to fast and intuitive modes of thinking (system 1) for efficiency, and rely on deliberate and analytical reasoning (system 2) for novel or high-stakes decisions Kahneman (2011)\nprivacy notices are long and complex\nconsent pop-ups are not in compliance with GDPR\npeople are tired of privacy popups\npeople are more interested in getting to the content\n\nWhat can we do about it?\n\nEnforce the law ;)…\nTest various interventions to see how they help"
   },
   {
-    "objectID": "slides/foko4_20250505.html#limitations",
-    "href": "slides/foko4_20250505.html#limitations",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Limitations",
-    "text": "Limitations\n\nSample size: ~75 per group\n\nNo additional fine-tuning in models - potential to work even better with fine-tuned weights\n\nControllability of context by experimental setup"
+    "objectID": "slides/HSG_CBT.html#what-can-we-do-about-it",
+    "href": "slides/HSG_CBT.html#what-can-we-do-about-it",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "What can we do about it?",
+    "text": "What can we do about it?\n\nEnforce the law ;)…\nTest various interventions to see how they help"
   },
   {
-    "objectID": "slides/foko4_20250505.html#your-questions",
-    "href": "slides/foko4_20250505.html#your-questions",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Your questions?",
-    "text": "Your questions?"
+    "objectID": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox",
+    "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Formal Modelling of the Privacy-Convenience-Paradox",
+    "text": "Formal Modelling of the Privacy-Convenience-Paradox\n\n\n\n\nModel adapted from: Beke et al. (2022), Dinev and Hart (2006)"
   },
   {
-    "objectID": "slides/foko4_20250505.html#my-questions",
-    "href": "slides/foko4_20250505.html#my-questions",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "My questions",
-    "text": "My questions\n\nHow can I assess the impact of credibly better specifications (effect size)?\nResearcher degrees of (reporting) freedom?\n\n\n\nAnd some administrative questions for Renato\n\nIs it okay for me to have public repositories in relation to my Master’s thesis on my personal GitHub (applet)?\nHow should we submit the final Master’s Thesis (PDF as E-Mail attachment, print, to whom, submission in official UZH tool by us or supervisor, …)?"
+    "objectID": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-1",
+    "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-1",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Formal Modelling of the Privacy-Convenience Paradox",
+    "text": "Formal Modelling of the Privacy-Convenience Paradox\n-&gt; colors don’t work :( nugets make it seksei please :-(\n\n\\[\n{\\text{ABH} \\overset{?}{=}}\n\\left\\{\n\\begin{aligned}\n&\\frac{1}{1+e^{-k(\\text{WTS})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{3062FF}{\\alpha \\cdot \\text{IC}}+\\color{A4D233}{\\beta \\cdot \\text{EW}})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{3062FF}{\\alpha \\cdot \\text{IC}}+\\color{A4D233}{\\beta \\cdot \\text{EW}} + \\color{A27200}{\\gamma\\cdot \\text{IC}\\cdot \\text{EW}})}}\n\\end{aligned}\n\\right.\n\\]\n\n\n\n\nHypothesis\nFormalization\n\n\n\n\nH1\n\\(\\alpha \\neq 0\\)\n\n\nH2\n\\(\\beta \\neq 0\\)\n\n\nH3\n\\(\\gamma \\neq 0\\)"
   },
   {
-    "objectID": "slides/foko4_20250505.html#research-questions-1",
-    "href": "slides/foko4_20250505.html#research-questions-1",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Research Questions",
-    "text": "Research Questions\n\n\nTo what degree can natural language data from think-aloud protocols be used to reliably classify different classes of experimentally induced psychological mechanisms?\nTo what extent are the language markers associated with each psychological mechanism unique to their respective class (vs. co-occurring across multiple classes)?\nIf there are language markers that overlap across classes of mechanisms, to what extent can classes of decision mechanisms still be distinguished from each other?"
+    "objectID": "slides/HSG_CBT.html#methodological-approach",
+    "href": "slides/HSG_CBT.html#methodological-approach",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methodological Approach",
+    "text": "Methodological Approach\n\nRandomized-Controlled Study:"
   },
   {
-    "objectID": "slides/foko4_20250505.html#section",
-    "href": "slides/foko4_20250505.html#section",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
+    "objectID": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-2",
+    "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-2",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Formal Modelling of the Privacy-Convenience Paradox",
+    "text": "Formal Modelling of the Privacy-Convenience Paradox\n\n\n\nHypothesis\nFormalization\n\n\n\n\nH1\n\\(\\alpha \\neq 0\\)\n\n\nH2\n\\(\\beta \\neq 0\\)\n\n\nH3\n\\(\\gamma \\neq 0\\)"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-3",
+    "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-3",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Formal Modelling of the Privacy-Convenience Paradox",
+    "text": "Formal Modelling of the Privacy-Convenience Paradox"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#hypotheses",
+    "href": "slides/HSG_CBT.html#hypotheses",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Hypotheses",
+    "text": "Hypotheses\nH1: The preference-behavior discrepancy is higher when information complexity (IC) is high.\nH2: The preference-behavior discrepancy is higher when the ease of withdrawing (EW) consent is low.\nH3: Information complexity and the ease of withdrawing consent are interdependent moderators of the preference-behavior discrepancy."
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#experimental-setup",
+    "href": "slides/HSG_CBT.html#experimental-setup",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Experimental Setup",
+    "text": "Experimental Setup\n\n\n\n\nMaterial inspired by Nouwens et al. (2020), Litman-Navarro (2019), Acquisti et al. (2018), Zhang, Koivumäki, and Chalmers (2024)\n\n\n\n\nImages Source: bbc.uk.com, ch.indeed.com"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#research-question-1",
+    "href": "slides/HSG_CBT.html#research-question-1",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Research Question",
+    "text": "Research Question\n(How) can we explain discrepancies between preference and behavior in online disclosure of private data through theories of bounded rationality and heuristics targeting the fast systems of dual-process systems?"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#the-bigger-picture",
+    "href": "slides/HSG_CBT.html#the-bigger-picture",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "The bigger Picture",
+    "text": "The bigger Picture\n\nscientific regret minimization\nwhat shape is the decision?\nwhat relevance does it have?\nHELP"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#next-steps",
+    "href": "slides/HSG_CBT.html#next-steps",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Next Steps??",
+    "text": "Next Steps??"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#section-1",
+    "href": "slides/HSG_CBT.html#section-1",
+    "title": "Job Talk @ IBT-HSG",
     "section": "",
-    "text": "… and for the last time … \n\n(unless you decide to fail me and I have to rewrite another Master’s thesis)…\n\n\n\n\nThank you!"
+    "text": "four groups:\n\nbaseline\nsocial norms Gerrard et al. (2008)\nknowledge on situation Fischhoff et al. (1978)\nneed Mishra (2014), Mishra, Barclay, and Sparks (2017)\n\n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others"
   },
   {
-    "objectID": "slides/foko4_20250505.html#explore-the-results-yourself",
-    "href": "slides/foko4_20250505.html#explore-the-results-yourself",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Explore the Results yourself",
-    "text": "Explore the Results yourself\n\n https://saboustocker.shinyapps.io/webapp_analysis/"
+    "objectID": "slides/HSG_CBT.html#methods---data-collection",
+    "href": "slides/HSG_CBT.html#methods---data-collection",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods - Data Collection",
+    "text": "Methods - Data Collection\n\nrandomized-controlled study\nonline experiment, \\(n\\) = 320\nfour groups (baseline, social norms, knowledge on situation, need)\nsimultaneous performance of think-aloud protocols\n\n\nPayne (1994), Smagorinsky (1998), and others"
   },
   {
-    "objectID": "slides/foko4_20250505.html#bibliography",
-    "href": "slides/foko4_20250505.html#bibliography",
-    "title": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "section": "Bibliography",
-    "text": "Bibliography\n\n\n\n\nLacoste, Alexandre, Francois Laviolette, and Mario Marchand. 2012. “Bayesian Comparison of Machine Learning Algorithms on Single and Multiple Datasets.” 2012.\n\n\nLaw, Jonny. 2021. “Bayesian Inference and Functional Programming - Model Comparison with Hierarchical Models.” September 27, 2021. https://jonnylaw.rocks/posts/2021-09-27-model-comparison/.\n\n\nSimonsohn, Uri, Joseph P. Simmons, and Leif D. Nelson. 2020. “Specification Curve Analysis.” Nature Human Behaviour 4 (11): 1208–14. https://doi.org/10.1038/s41562-020-0912-z."
+    "objectID": "slides/HSG_CBT.html#methods---data-collection-1",
+    "href": "slides/HSG_CBT.html#methods---data-collection-1",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods - Data Collection",
+    "text": "Methods - Data Collection\n\nfour groups:\n\nbaseline\nsocial norms Gerrard et al. (2008)\nknowledge on situation Fischhoff et al. (1978)\nneed Mishra (2014), Mishra, Barclay, and Sparks (2017)\n\n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#methods---analysis",
+    "href": "slides/HSG_CBT.html#methods---analysis",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods - Analysis",
+    "text": "Methods - Analysis"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#methods---analysis-1",
+    "href": "slides/HSG_CBT.html#methods---analysis-1",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods - Analysis",
+    "text": "Methods - Analysis\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#methods---analysis-2",
+    "href": "slides/HSG_CBT.html#methods---analysis-2",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Methods - Analysis",
+    "text": "Methods - Analysis"
   }
 ]
