@@ -99,7 +99,8 @@ $light-grey-5: #D7D7D7;
 }
 
 .slides h1 {
-  color: $blue-3;
+  color: $cyan-5;
+  text-align: center; 
 }
 
 .slides h2{
@@ -113,7 +114,7 @@ $light-grey-5: #D7D7D7;
 
 .highlight-p {
   color: $uzh-blue;
-  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .aside-footnotes {
@@ -121,11 +122,25 @@ $light-grey-5: #D7D7D7;
   font-size: 0.5em;
 }
 
+.footnote-p {
+  color: $grey-4;
+  font-size: 0.3em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5em;
+  text-align: end;
+}
+
 
 .source-p {
   color: $blue-4;
   font-size: 0.3em;
   text-align: end;
+  padding-top: 0;
+  margin-top: 0;
+  line-height: 1;
 }
 
 .center-p {
@@ -173,10 +188,6 @@ $light-grey-5: #D7D7D7;
   color: $uzh-blue;
 }
 
-.mittig{
-      text-align: center;
-}
-
 .reveal ol {
     padding-left: 0.5em; /* Adjust as needed */
 }
@@ -186,14 +197,25 @@ $light-grey-5: #D7D7D7;
   color: #4D4D4D;
 }
 
-ul {
+.bsmaller-p {
+  font-size: 0.5em;
+}
+
+.reveal ul {
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-li {
+.reveal li {
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+.definition-p {
+  color: $blue-3;
+  border-left: 4px solid $blue-3;
+  padding-left: 5px;
+  margin: 0px;
 }
 
 /*-- containers --*/

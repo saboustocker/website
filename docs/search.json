@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Slides",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nJob Talk @ IBT-HSG\n\n\n \n\n\n\n\n\n\nAug 11, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nJob Talk @ IBT-HSG\n\n\n \n\n\n\n\n\n\nAug 13, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/foko4_20250505.html#aim",
@@ -270,7 +270,7 @@
     "href": "slides/HSG_CBT.html#section",
     "title": "Job Talk @ IBT-HSG",
     "section": "",
-    "text": "Nature\n\n\n\nNurture\n\n\n\n\nNugget"
+    "text": "Nature\n\n\n\n\nNurture\n\n\n\n\nNugget"
   },
   {
     "objectID": "slides/HSG_CBT.html#about-me",
@@ -284,7 +284,7 @@
     "href": "slides/HSG_CBT.html#a-specification-curve-evaluation-of-nlp-classifiers-for-state-specific-psychological-mechanisms-influencing-decisions-under-risk-and-uncertainty",
     "title": "Job Talk @ IBT-HSG",
     "section": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "text": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\nMaster’s Thesis Sabou Rani Stocker  Cognitive and Behavioral Decision Research"
+    "text": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\nMaster’s Thesis Sabou Rani Stocker  Cognitive and Behavioral Decision Research  University of Zurich"
   },
   {
     "objectID": "slides/HSG_CBT.html#background",
@@ -305,28 +305,28 @@
     "href": "slides/HSG_CBT.html#methods",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods",
-    "text": "Methods\nData Collection\n\nrandomized-controlled study\nonline experiment: n = 320\nfour groups:\n\nbaseline\nsocial norms Gerrard et al. (2008) \nknowledge on situation Fischhoff et al. (1978) \nneed Mishra (2014), Mishra, Barclay, and Sparks (2017) \n\nsimultaneous performance of think-aloud protocols  Payne (1994), Smagorinsky (1998), and others"
+    "text": "Methods\nData Collection\n\n\n\nrandomized-controlled study: four groups (baseline, 3 manipulations)\nonline experiment, \\(n\\) = 320\nsimultaneous performance of think-aloud protocols\n\nPayne (1994), Smagorinsky (1998), and others\n\n\n\n      \n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others\n\n\n\n\n\nBaseline Condition\n\n\n\n\n\nSocial Norms Gerrard et al. (2008)\n\n\n\n\n\nKnowledge on situation Fischhoff et al. (1978)\n\n\n\n\n\nNeed Mishra (2014), Mishra, Barclay, and Sparks (2017)"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods-1",
     "href": "slides/HSG_CBT.html#methods-1",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods",
-    "text": "Methods\nData Collection\n\nrandomized-controlled study\nonline experiment, \\(n\\) = 320\nfour groups (baseline, social norms, knowledge on situation, need)\nsimultaneous performance of think-aloud protocols\n\n\nPayne (1994), Smagorinsky (1998), and others"
+    "text": "Methods\nAnalysis"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods-2",
     "href": "slides/HSG_CBT.html#methods-2",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods",
-    "text": "Methods\nAnalysis\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\\(\\Rightarrow\\) 315 main algorithms\n\\(\\Rightarrow\\) 3’900 algorithms including robustness checks"
+    "text": "Methods\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods-3",
     "href": "slides/HSG_CBT.html#methods-3",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods",
-    "text": "Methods\nAnalysis\n\nSpecification Curve Analysis  Simonsohn, Simmons, and Nelson (2020) \n\\(\\Rightarrow\\) 315 main algorithms\n\\(\\Rightarrow\\) 3’900 algorithms including robustness checks"
+    "text": "Methods\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods-4",
@@ -340,7 +340,7 @@
     "href": "slides/HSG_CBT.html#results",
     "title": "Job Talk @ IBT-HSG",
     "section": "Results",
-    "text": "Results"
+    "text": "Results\n\n\n\n\n\n\n\n\nSupplementary Results"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods-keep",
@@ -368,7 +368,7 @@
     "href": "slides/HSG_CBT.html#results-1",
     "title": "Job Talk @ IBT-HSG",
     "section": "Results",
-    "text": "Results\nStatistical Significance\n\nPrimary ResultsFurther Results"
+    "text": "Results\nStatistical Significance\n\n\n\n\nFurther Results"
   },
   {
     "objectID": "slides/HSG_CBT.html#results-2",
@@ -389,7 +389,7 @@
     "href": "slides/HSG_CBT.html#implications",
     "title": "Job Talk @ IBT-HSG",
     "section": "Implications",
-    "text": "Implications\nMethodological\n\nnatural language as data does work, but only under specific circumstances\nmethodological approach \\(\\geq\\) mechanism\nvalidation with real world data pending\n\nPractical\n\n???"
+    "text": "Implications\nMethodological\n\ngiven the right circumstances, psychological mechanisms can be inferred from natural language\nmethodological approach \\(\\geq\\) mechanism\n\nPractical\n\nscaleable analysis of text-data\nviable to test (co-)occurrence of mechanisms in naturalistic scenarios\nvalidation with real world data & co-occurring mechanisms pending"
   },
   {
     "objectID": "slides/HSG_CBT.html#at-the-heart-of-it",
@@ -403,14 +403,14 @@
     "href": "slides/HSG_CBT.html#the-privacy-convenience-paradox",
     "title": "Job Talk @ IBT-HSG",
     "section": "The Privacy-Convenience-Paradox",
-    "text": "The Privacy-Convenience-Paradox\n\nprivacy calculus = (formal) theory on mental cost-benefit-analysis for sharing private information Dinev and Hart (2006), Beke et al. (2022)\nprivacy-convenience-paradox = preference and actual behavior are different from each other  Ackerman, Cranor, and Reagle (1999), Zhang, Koivumäki, and Chalmers (2024) \n\\(\\Rightarrow\\) Privacy-Calculus theory cannot explain privacy-convenience-paradox\nDecision-research: Humans do not act rational Arkes, Gigerenzer, and Hertwig (2016) \n\\(\\rightarrow\\) Bounded Rationality Simon (1955) \n\\(\\rightarrow\\) Dual-Process Theory Stanovich and West (2000), Kahneman (2011)"
+    "text": "The Privacy-Convenience-Paradox\n\nprivacy calculus: theory on mental cost-benefit-analysis for sharing private information\n\n\nDinev and Hart (2006), Beke et al. (2022)\n\n\nprivacy-convenience-paradox: preference and actual behavior are different from each other\n\n\nAckerman, Cranor, and Reagle (1999), Zhang, Koivumäki, and Chalmers (2024)\n\n\n\n\n\nModel adapted from: Beke et al. (2022), Dinev and Hart (2006)"
   },
   {
     "objectID": "slides/HSG_CBT.html#the-privacy-convenience-paradox-1",
     "href": "slides/HSG_CBT.html#the-privacy-convenience-paradox-1",
     "title": "Job Talk @ IBT-HSG",
     "section": "The Privacy-Convenience-Paradox",
-    "text": "The Privacy-Convenience-Paradox\n-&gt; formalize the theory \\[\n\\text{ABH} = \\frac{1}{1+\\exp^{-k(\\text{PRICAL}-x_0)}}\n\\]\n\\[\nx_0 = mean(PRICAL)\n\\]"
+    "text": "The Privacy-Convenience-Paradox\n\nDecision-research: Humans do not act rational\n\n\nArkes, Gigerenzer, and Hertwig (2016)\n\n\\(\\rightarrow\\) Bounded Rationality\n\nSimon (1955)\n\n\\(\\rightarrow\\) Dual-Process Theory\n\nStanovich and West (2000), Kahneman (2011)\n\n\n\n\n\nModel adapted from: Beke et al. (2022), Dinev and Hart (2006)\n\n\nExtension of Model"
   },
   {
     "objectID": "slides/HSG_CBT.html#co-creation-vs.-consumption-domain-specificity-of-ai-adoption-in-generative-tasks",
@@ -445,7 +445,7 @@
     "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-1",
     "title": "Job Talk @ IBT-HSG",
     "section": "Formal Modelling of the Privacy-Convenience Paradox",
-    "text": "Formal Modelling of the Privacy-Convenience Paradox\n-&gt; colors don’t work :( nugets make it seksei please :-(\n\n\\[\n{\\text{ABH} \\overset{?}{=}}\n\\left\\{\n\\begin{aligned}\n&\\frac{1}{1+e^{-k(\\text{WTS})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{3062FF}{\\alpha \\cdot \\text{IC}}+\\color{A4D233}{\\beta \\cdot \\text{EW}})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{3062FF}{\\alpha \\cdot \\text{IC}}+\\color{A4D233}{\\beta \\cdot \\text{EW}} + \\color{A27200}{\\gamma\\cdot \\text{IC}\\cdot \\text{EW}})}}\n\\end{aligned}\n\\right.\n\\]\n\n\n\n\nHypothesis\nFormalization\n\n\n\n\nH1\n\\(\\alpha \\neq 0\\)\n\n\nH2\n\\(\\beta \\neq 0\\)\n\n\nH3\n\\(\\gamma \\neq 0\\)"
+    "text": "Formal Modelling of the Privacy-Convenience Paradox\n\\[\n{\\text{ABH} \\overset{?}{=}}\n\\left\\{\n\\begin{aligned}\n&\\frac{1}{1+e^{-k(\\text{WTS})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{red}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{3062FF}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}} + \\color{green}{\\gamma\\cdot \\text{IC}\\cdot \\text{EW}})}}\n\\end{aligned}\n\\right.\n\\]"
   },
   {
     "objectID": "slides/HSG_CBT.html#methodological-approach",
@@ -487,7 +487,7 @@
     "href": "slides/HSG_CBT.html#research-question-1",
     "title": "Job Talk @ IBT-HSG",
     "section": "Research Question",
-    "text": "Research Question\n(How) can we explain discrepancies between preference and behavior in online disclosure of private data through theories of bounded rationality and heuristics targeting the fast systems of dual-process systems?"
+    "text": "Research Question\n\n(How) can we explain discrepancies between preference and behavior in online disclosure of private data through theories of bounded rationality and heuristics targeting the fast systems of dual-process systems?"
   },
   {
     "objectID": "slides/HSG_CBT.html#the-bigger-picture",
@@ -508,7 +508,7 @@
     "href": "slides/HSG_CBT.html#section-1",
     "title": "Job Talk @ IBT-HSG",
     "section": "",
-    "text": "four groups:\n\nbaseline\nsocial norms Gerrard et al. (2008)\nknowledge on situation Fischhoff et al. (1978)\nneed Mishra (2014), Mishra, Barclay, and Sparks (2017)\n\n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others"
+    "text": "\\(\\Rightarrow\\) Privacy-Calculus theory cannot explain privacy-convenience-paradox\n\nDecision-research: Humans do not act rational Arkes, Gigerenzer, and Hertwig (2016) \n\\(\\rightarrow\\) Bounded Rationality Simon (1955) \n\\(\\rightarrow\\) Dual-Process Theory Stanovich and West (2000), Kahneman (2011)"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods---data-collection",
@@ -529,7 +529,7 @@
     "href": "slides/HSG_CBT.html#methods---analysis",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods - Analysis",
-    "text": "Methods - Analysis"
+    "text": "Methods - Analysis\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods---analysis-1",
@@ -544,5 +544,89 @@
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods - Analysis",
     "text": "Methods - Analysis"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#aim-research-questions",
+    "href": "slides/HSG_CBT.html#aim-research-questions",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Aim & Research Questions",
+    "text": "Aim & Research Questions\nAim\nSystematic comparison of algorithms harnessing NLP on their capabilities and limitations in diagnosing state-specific mechanisms influencing people when making decisions  \nResearch Question\nHow reliably can we identify state-specific mechanisms from natural language influencing people in decision-making?"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#aim-research-question",
+    "href": "slides/HSG_CBT.html#aim-research-question",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Aim & Research Question",
+    "text": "Aim & Research Question\nAim\nSystematic comparison of algorithms harnessing NLP on their capabilities and limitations in diagnosing state-specific mechanisms influencing people when making decisions  \nResearch Question\nHow reliably can we identify state-specific mechanisms from natural language influencing people in decision-making?"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#a-formal-model-of-the-privacy-convenience-paradox",
+    "href": "slides/HSG_CBT.html#a-formal-model-of-the-privacy-convenience-paradox",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "A Formal Model of the Privacy-Convenience Paradox",
+    "text": "A Formal Model of the Privacy-Convenience Paradox\n\\[\n\\text{ABH} \\overset{?}{=}\n\\frac{1}{1+e^{-k(\\text{WTS}+\\color{3062FF}{\\alpha \\cdot \\text{IC}}+\\color{A4D233}{\\beta \\cdot \\text{EW}} + \\color{A27200}{\\gamma\\cdot \\text{IC}\\cdot \\text{EW}})}}\n\\]\n\n\n\n\nExtended Formal Model - Dynamic Visualization"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#approach",
+    "href": "slides/HSG_CBT.html#approach",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Approach",
+    "text": "Approach\n\nexperimental data collection\nformal modelling of privacy calculus + “behavioral privacy calculus”\n\nvalidation against theory\nvalidation against correlational data (RWD)\nvalidation against scientific regret minimization approach\n\n\n\nAgrawal, Peterson, and Griffiths (2020)\n\n\nExperimental Setup - Scientific Regret Minimization"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#added-value",
+    "href": "slides/HSG_CBT.html#added-value",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Added Value",
+    "text": "Added Value\nTheory\n\nempirical validation of model\n\nbetter model to predict consumer behavior\n\n\nPractice\n\nmaximisation of benefits\n\npolicy: use resources where it is most effective\nconsumers: enabling to make decisions congruent with preference"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#formal-model",
+    "href": "slides/HSG_CBT.html#formal-model",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Alternative Formulas of the PC-Paradox",
+    "text": "Alternative Formulas of the PC-Paradox\n\\[\n{\\text{ABH} \\overset{?}{=}}\n\\left\\{\n\\begin{aligned}\n&\\frac{1}{1+e^{-k(\\text{WTS})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{red}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{red}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}} + \\color{green}{\\gamma\\cdot \\text{IC}\\cdot \\text{EW}})}}\n\\end{aligned}\n\\right.\n\\]"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#extended-model",
+    "href": "slides/HSG_CBT.html#extended-model",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Extended theoretical Model",
+    "text": "Extended theoretical Model\n\n\n\n\nModel adapted from: Beke et al. (2022), Dinev and Hart (2006)"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#dynamic-model",
+    "href": "slides/HSG_CBT.html#dynamic-model",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Dynamic Visualization of Model",
+    "text": "Dynamic Visualization of Model"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#scientific-regret-minimization",
+    "href": "slides/HSG_CBT.html#scientific-regret-minimization",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Scientific Regret Minimization",
+    "text": "Scientific Regret Minimization\n\nAgrawal, Peterson, and Griffiths (2020)"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#srm",
+    "href": "slides/HSG_CBT.html#srm",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Scientific Regret Minimization",
+    "text": "Scientific Regret Minimization\n\nAgrawal, Peterson, and Griffiths (2020)"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#supplementary-data",
+    "href": "slides/HSG_CBT.html#supplementary-data",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Supplementary Results",
+    "text": "Supplementary Results\n\nhttps://saboustocker.shinyapps.io/webapp_analysis/"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#further-results",
+    "href": "slides/HSG_CBT.html#further-results",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Further Results: Statistical Significance",
+    "text": "Further Results: Statistical Significance"
   }
 ]
