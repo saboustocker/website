@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Slides",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nJob Talk @ IBT-HSG\n\n\n \n\n\n\n\n\n\nAug 13, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nJob Talk @ IBT-HSG\n\n\n \n\n\n\n\n\n\nAug 14, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/techlunch31032025.html#our-program",
@@ -280,11 +280,11 @@
     "text": "Nature\n\n\n\n\nNurture\n\n\n\n\nNugget"
   },
   {
-    "objectID": "slides/HSG_CBT.html#a-specification-curve-evaluation-of-nlp-classifiers-for-state-specific-psychological-mechanisms-influencing-decisions-under-risk-and-uncertainty",
-    "href": "slides/HSG_CBT.html#a-specification-curve-evaluation-of-nlp-classifiers-for-state-specific-psychological-mechanisms-influencing-decisions-under-risk-and-uncertainty",
+    "objectID": "slides/HSG_CBT.html#a-specification-curve-analysis-of-nlp-classifiers-diagnosing-psychological-mechanisms-influencing-decision-making",
+    "href": "slides/HSG_CBT.html#a-specification-curve-analysis-of-nlp-classifiers-diagnosing-psychological-mechanisms-influencing-decision-making",
     "title": "Job Talk @ IBT-HSG",
-    "section": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty",
-    "text": "A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\nMaster’s Thesis Sabou Rani Stocker  Cognitive and Behavioral Decision Research  University of Zurich"
+    "section": "A Specification Curve Analysis of NLP Classifiers Diagnosing Psychological Mechanisms Influencing Decision-Making",
+    "text": "A Specification Curve Analysis of NLP Classifiers Diagnosing Psychological Mechanisms Influencing Decision-Making\nMaster’s Thesis Sabou Rani Stocker  Cognitive and Behavioral Decision Research  University of Zurich  supervised by Prof. Dr. Renato Frey and Olivia Fischer"
   },
   {
     "objectID": "slides/HSG_CBT.html#background",
@@ -305,7 +305,7 @@
     "href": "slides/HSG_CBT.html#methods",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods",
-    "text": "Methods\nData Collection\n\n\n\nrandomized-controlled study: four groups (baseline, 3 manipulations)\nonline experiment, \\(n\\) = 320\nsimultaneous performance of think-aloud protocols\n\nPayne (1994), Smagorinsky (1998), and others\n\n\n\n      \n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others\n\n\n\n\n\nBaseline Condition\n\n\n\n\n\nSocial Norms Gerrard et al. (2008)\n\n\n\n\n\nKnowledge on situation Fischhoff et al. (1978)\n\n\n\n\n\nNeed Mishra (2014), Mishra, Barclay, and Sparks (2017)"
+    "text": "Methods\nData Collection\n\n\n\nonline experiment, \\(n\\) = 320\nrandomized-controlled study: four groups(baseline, 3 manipulations)\nsimultaneous performance of think-aloud protocols\n\nPayne (1994), Smagorinsky (1998), and others\n\n\n\n      \n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others\n\n\n\n\n\nBaseline Condition\n\n\n\n\n\nSocial Norms Gerrard et al. (2008)\n\n\n\n\n\nKnowledge on situation Fischhoff et al. (1978)\n\n\n\n\n\nNeed Mishra (2014), Mishra, Barclay, and Sparks (2017)"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods-1",
@@ -319,7 +319,7 @@
     "href": "slides/HSG_CBT.html#methods-2",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods",
-    "text": "Methods\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
+    "text": "Methods\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks\n\n\nSupplementary Results"
   },
   {
     "objectID": "slides/HSG_CBT.html#results",
@@ -383,6 +383,13 @@
     "title": "Job Talk @ IBT-HSG",
     "section": "Added Value",
     "text": "Added Value\nTheory\n\nempirical validation of model\n\nbetter model to predict consumer behavior\n\n\nPractice\n\nmaximisation of benefits\n\npolicy: use resources where it is most effective\nconsumers: enabling to make decisions congruent with preference"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#thank-you",
+    "href": "slides/HSG_CBT.html#thank-you",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Thank you!",
+    "text": "Thank you!\n\n\n\n\n\nSlides"
   },
   {
     "objectID": "slides/HSG_CBT.html#supplementary-data",
