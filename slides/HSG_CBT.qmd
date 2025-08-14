@@ -55,13 +55,15 @@ bibliography:
 # Research Project
 
 :::{.center-p}
-## A Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty {.center}
+## A Specification Curve Analysis of NLP Classifiers Diagnosing Psychological Mechanisms Influencing Decision-Making {.center}
 
 <small>Master's Thesis Sabou Rani Stocker</small>
 <br>
 <small>Cognitive and Behavioral Decision Research</small>
 <br>
 <small>University of Zurich</small>
+<br>
+<small>supervised by Prof. Dr. Renato Frey and Olivia Fischer</small>
 :::
 
 ## Background
@@ -101,10 +103,10 @@ How reliably can we <span class="highlight-p">identify state-specific mechanisms
 
 :::{.columns}
 
-::::{.column width="50%"}
+::::{.column width="45%"}
 
-* randomized-controlled study: four groups <span class="smaller-p">(baseline, 3 manipulations)</span>
 * online experiment, $n$ = 320
+* randomized-controlled study: four groups<br><span class="smaller-p">(baseline, 3 manipulations)</span>
 * simultaneous performance of think-aloud protocols 
 
   :::{.source-p}
@@ -113,7 +115,7 @@ How reliably can we <span class="highlight-p">identify state-specific mechanisms
 
 :::
 
-::::{.column width="50%"}
+::::{.column width="55%"}
 <br>
 <br>
 <br>
@@ -213,6 +215,9 @@ Manipulation implementations based on: @freyEcologyRiskMapping2024, @pietersAtte
 * 315 main specifications
 * 3'900 specifications including robustness checks
 
+:::{.footnote-p}
+[Supplementary Results](#supplementary-data)
+:::
 
 ## Results
 
@@ -253,6 +258,10 @@ Manipulation implementations based on: @freyEcologyRiskMapping2024, @pietersAtte
 * validation with real world data & co-occurring mechanisms pending
 
 # Possible Future Research
+
+## {.center}
+
+![](images_hsg/myinterest.svg)
 
 ## The Privacy-Convenience-Paradox
 
@@ -359,6 +368,28 @@ $$
 - maximisation of benefits
   - policy: use resources where it is most effective
   - consumers: enabling to make decisions congruent with preference
+
+## Thank you!
+
+. . .
+
+:::{.columns}
+::::{.column width="80%" .center-p}
+<img src="images_hsg/overview_nugget.svg" style="height: 500px; width: auto;">
+
+::::
+
+::::{.column width="20%" .center-p}
+
+### Slides
+
+![](images_hsg/qrslides.png)
+
+
+::::
+:::
+
+
 
 
 # Appendix

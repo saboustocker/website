@@ -4,7 +4,133 @@
     "href": "index.html",
     "title": "Slides",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nJob Talk @ IBT-HSG\n\n\n \n\n\n\n\n\n\nAug 13, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\nJob Talk @ IBT-HSG\n\n\n \n\n\n\n\n\n\nAug 14, 2025\n\n\nAutomating online data collection using web-scraping\n\n\nTech Lunch @ CBDR\n\n\n\n\n\n\nMay 5, 2025\n\n\nA Specification Curve Evaluation of NLP Classifiers for state-specific psychological Mechanisms influencing Decisions under Risk and Uncertainty\n\n\nFoKo 4\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#our-program",
+    "href": "slides/techlunch31032025.html#our-program",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Our program",
+    "text": "Our program\n\nWhy would I want to automate web-scraping?\nThe right tool for the job…\n… but how do I know the job?\nSome practical examples and code\nQ&A\n(Optional: some funny statistics)"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#what-i-used-it-for",
+    "href": "slides/techlunch31032025.html#what-i-used-it-for",
+    "title": "Automating online data collection using web-scraping",
+    "section": "What I used it for",
+    "text": "What I used it for\n\nexporting stock developments\ndetermining median hotel prices\nextracting word frequency\ncircumventing copyright protection (flipbook) 🤫\nmaking a 💩ton of data entries"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#in-general",
+    "href": "slides/techlunch31032025.html#in-general",
+    "title": "Automating online data collection using web-scraping",
+    "section": "In general",
+    "text": "In general\n\nStructured data from webpages without export button\nAnalyzing online-data (forums, product reviews, …)\nSystematic interactions with specific sites\nFun personal projects 😊\n💭…\n\nBut!! Be mindful of the ethical, regulatory and legal impact of your project."
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#the-right-tool-for-the-job",
+    "href": "slides/techlunch31032025.html#the-right-tool-for-the-job",
+    "title": "Automating online data collection using web-scraping",
+    "section": "The right tool for the job…",
+    "text": "The right tool for the job…"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#selenium",
+    "href": "slides/techlunch31032025.html#selenium",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Selenium",
+    "text": "Selenium\n\nautomated interaction with a web-browser\n\n\n\nPro\n\ninteraction with web-browser\ninput data (e.g. forms, text)\ninteraction with dynamic sites (JavaScript)\n\n\nCon\n\nslow\nlearning curve\npain in the butt sometimes"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#beautifulsoup4",
+    "href": "slides/techlunch31032025.html#beautifulsoup4",
+    "title": "Automating online data collection using web-scraping",
+    "section": "BeautifulSoup4",
+    "text": "BeautifulSoup4\n\nextracts HTML structures and contents from webpages\n\n\n\nPro\n\nextracting html components of a single URL / a list of URLs where structure is standardized\neasy translations of objects into dataframes\n\n\nCon\n\ninteraction with web-browser\ninput data (e.g. forms, text)\ninteraction with dynamic sites (JavaScript)"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#beautifulsoup",
+    "href": "slides/techlunch31032025.html#beautifulsoup",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Beautifulsoup",
+    "text": "Beautifulsoup\nHow many chairs (and “sub-chairs”) do we have at the psychological Institute in Zurich?\n\n5 chairs and 35 “sub-chairs”\n5 chairs and 20 “sub-chairs”\n5 chairs and 29 “sub-chairs”"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#beautifulsoup-1",
+    "href": "slides/techlunch31032025.html#beautifulsoup-1",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Beautifulsoup",
+    "text": "Beautifulsoup\nHow many chairs (and “sub-chairs”) do we have at the psychological Institute in Zurich?\n\n5 chairs and 35 “sub-chairs”\n5 chairs and 20 “sub-chairs”\n5 chairs and 29 “sub-chairs”"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#beautifulsoup-2",
+    "href": "slides/techlunch31032025.html#beautifulsoup-2",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Beautifulsoup",
+    "text": "Beautifulsoup\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\n\n\nbase_url = \"https://www.psychologie.uzh.ch\"\noverview_url = base_url + \"/de/bereiche/uebersicht.html\"\n\nresponse = requests.get(overview_url)\nsoup = BeautifulSoup(response.text,\"html.parser\")\n\n\n\n## Level 1 subpages\nsubpage_links = []\nall_data = []\n\n\nfor link in soup.find_all(\"a\",href=True):\n    href = link[\"href\"]\n    if href.startswith(\"/de/bereiche/\") and href.endswith(\".html\"):\n        subpage_links.append(base_url+href)\n        print(base_url+href)\n\nfor subpage_url in subpage_links:\n    \n    print(f\"\\nScraping {subpage_url}\")\n    response = requests.get(subpage_url)\n    sub_soup = BeautifulSoup(response.text,\"html.parser\")\n\n    chair = sub_soup.find(\"h1\") ## e.g. Entwicklungspsychologie\n    chair_name = chair.get_text(strip=True)\n    print(chair_name)\n\n    tables = sub_soup.find_all(\"table\", class_=\"basic\") ## e.g. \"Entwicklungspsychologie: Kinder- und Säuglingsalter\"\n\n    for i, table in enumerate(tables):\n        print(f\"\\nTable {i+1} in {subpage_url}\")\n        table_data = []\n        table_data.append(chair_name)\n        rows = table.find_all(\"tr\")\n\n        for i, row in enumerate(rows):\n        \n            cells = row.find_all([\"th\",\"td\"])\n            length = len(cells)\n            print(f\"\\nlen: {length}\")\n\n            if length == 2:\n                title = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                table_data.append(title)\n                link = cells[1].find(\"a\",href=True)\n                table_data.append(link)\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 2\")\n                print(f\"\\nTitle: {title}\")\n                print(f\"\\nLink: {link}\")\n                if link:\n                    full_description = []\n                    subsubpage_link = base_url + link[\"href\"]\n                    subresponse = requests.get(subsubpage_link)\n                    subsub_soup = BeautifulSoup(subresponse.text, \"html.parser\")\n                    description = subsub_soup.find(\"section\", class_=\"ContentArea\")\n                    \n                    if description:\n                        section_text = description.get_text(strip=True, separator=\" \")\n                        full_description.append(section_text)\n                        \n                    else:\n                        print(\"No section found\")\n                    description_text = \" \".join(full_description)\n                    table_data.append(description_text)\n                    print(f\"\\ndescription: {description_text}\")\n            elif length == 1 and i == 1:\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 1\")\n                name = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                print(f\"\\nName: {name}\")\n                table_data.append(name)\n            elif length == 1 and i == 2:\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 1\")\n                position = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                print(f\"\\nPosition: {position}\")\n                table_data.append(position)\n            \n            print(table_data)\n            all_data.append(table_data)\n\ndf = pd.DataFrame(all_data)\ndf.to_csv(\"beautifulsoup.csv\",index=False,sep=\";\",quoting=1,encoding=\"utf-8-sig\")"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#selenium-1",
+    "href": "slides/techlunch31032025.html#selenium-1",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Selenium",
+    "text": "Selenium\nWhat is the most-watched video on the youtube channel of UZH?\n\nDer flexible Schweif des Prions vergiftet die Hirnzellen (en: the flexible tail of the prion poisons brain cells)\nSchwebebahn mit Hochtemperatur-Supraleitung (en: Suspension railroad with high-temperature superconductivity)\nMoosforschung (en: moss research)"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#selenium-2",
+    "href": "slides/techlunch31032025.html#selenium-2",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Selenium",
+    "text": "Selenium\nWhat is the most-watched video on the youtube channel of UZH?\n\nDer flexible Schweif des Prions vergiftet die Hirnzellen (en: the flexible tail of the prion poisons brain cells)\nSchwebebahn mit Hochtemperatur-Supraleitung (en: Suspension railroad with high-temperature superconductivity)\nMoosforschung (en: moss research)"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#selenium-3",
+    "href": "slides/techlunch31032025.html#selenium-3",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Selenium",
+    "text": "Selenium\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom selenium.webdriver.common.keys import Keys\nfrom selenium.webdriver.firefox.service import Service\nfrom webdriver_manager.firefox import GeckoDriverManager\nfrom selenium.webdriver.firefox.options import Options\nimport time\nimport re\nimport pandas as pd\n\ndata = [] \ndef text_before(text,delimiter):\n    return text.split(delimiter)[0] if delimiter in text else text\ndef text_after(text, delimiter):\n    return text.split(delimiter, 1)[1] if delimiter in text else \"\"\n\nfirefox_options = Options()\n#firefox_options.add_argument(\"--headless\")  # if you don't want to open a window\nfirefox_options.add_argument(\"--disable-gpu\")\n\ndriver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=firefox_options)\n\nchannel_url = 'https://www.youtube.com/@uzhch/videos'\ndriver.get(channel_url)\ntime.sleep(5)\n\n## accept all cookies\ntry:\n    accept_button = driver.find_element(By.XPATH, \"/html/body/c-wiz/div/div/div/div[2]/div[1]/div[3]/div[1]/form[2]/div/div/button/span\")\n    accept_button.click()\n    print(\"Cookies accepted.\")\nexcept Exception as e:\n    print(f\"Could not accept cookies: {e}\")\n\ntime.sleep(5)\n\nstart_height = driver.execute_script(\"return document.documentElement.scrollHeight\")\nprint(start_height)\nmax_attempts = 100\nattempt = 0\n\nwhile attempt &lt; max_attempts:    \n    html = driver.find_element(By.TAG_NAME, 'html')\n    html.send_keys(Keys.END)\n    time.sleep(3)\n    new_height = driver.execute_script(\"return document.documentElement.scrollHeight\")\n    print(new_height)\n    if new_height == start_height:\n        break\n    else: \n        start_height = new_height\n\n    attempt+=1\n\nlinks = driver.find_elements(By.CSS_SELECTOR, \"a#video-title-link\")\naria_labels = [link.get_attribute(\"aria-label\") for link in links]\nfor label in aria_labels:\n    print(label)\n\n    title = text_before(label,\"by Universität Zürich\")\n    print(title)\n    \n    views = text_after(label,\"by Universität Zürich\")\n    views = text_before(views,\" views \")\n    print(views)\n    \n    date = text_after(label, views+\" views \")\n    date = text_before(date,\" ago \")\n    print(date)\n    \n    duration = text_after(label,date+\" ago \")\n    print(duration)\n\n    data.append([title, views, date, duration])\n\ndf = pd.DataFrame(data, columns=[\"Title\", \"Views\", \"Date\", \"Duration\"])\ndf.to_csv(\"youtube_data.csv\",index=False,quoting=1,sep=\";\",encoding=\"utf-8\")"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#qa",
+    "href": "slides/techlunch31032025.html#qa",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Q&A",
+    "text": "Q&A"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#amount-of-videos-uploaded-per-year-on-uzhs-youtube-channel",
+    "href": "slides/techlunch31032025.html#amount-of-videos-uploaded-per-year-on-uzhs-youtube-channel",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Amount of videos uploaded per year on UZH’s youtube channel",
+    "text": "Amount of videos uploaded per year on UZH’s youtube channel"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#duration-of-videos-across-time",
+    "href": "slides/techlunch31032025.html#duration-of-videos-across-time",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Duration of Videos across time",
+    "text": "Duration of Videos across time"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#most-frequently-used-words-in-descriptions-of-our-sub-chairs",
+    "href": "slides/techlunch31032025.html#most-frequently-used-words-in-descriptions-of-our-sub-chairs",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Most frequently used words in descriptions of our (sub-)chairs",
+    "text": "Most frequently used words in descriptions of our (sub-)chairs"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#oh-hello-there",
+    "href": "slides/techlunch31032025.html#oh-hello-there",
+    "title": "Automating online data collection using web-scraping",
+    "section": "… oh hello there!",
+    "text": "… oh hello there!"
+  },
+  {
+    "objectID": "slides/techlunch31032025.html#length-of-descriptions-in-words",
+    "href": "slides/techlunch31032025.html#length-of-descriptions-in-words",
+    "title": "Automating online data collection using web-scraping",
+    "section": "Length of descriptions in words",
+    "text": "Length of descriptions in words"
   },
   {
     "objectID": "slides/foko4_20250505.html#aim",
@@ -140,130 +266,11 @@
     "text": "Bibliography\n\n\n\n\nLacoste, Alexandre, Francois Laviolette, and Mario Marchand. 2012. “Bayesian Comparison of Machine Learning Algorithms on Single and Multiple Datasets.” 2012.\n\n\nLaw, Jonny. 2021. “Bayesian Inference and Functional Programming - Model Comparison with Hierarchical Models.” September 27, 2021. https://jonnylaw.rocks/posts/2021-09-27-model-comparison/.\n\n\nSimonsohn, Uri, Joseph P. Simmons, and Leif D. Nelson. 2020. “Specification Curve Analysis.” Nature Human Behaviour 4 (11): 1208–14. https://doi.org/10.1038/s41562-020-0912-z."
   },
   {
-    "objectID": "slides/techlunch31032025.html#our-program",
-    "href": "slides/techlunch31032025.html#our-program",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Our program",
-    "text": "Our program\n\nWhy would I want to automate web-scraping?\nThe right tool for the job…\n… but how do I know the job?\nSome practical examples and code\nQ&A\n(Optional: some funny statistics)"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#what-i-used-it-for",
-    "href": "slides/techlunch31032025.html#what-i-used-it-for",
-    "title": "Automating online data collection using web-scraping",
-    "section": "What I used it for",
-    "text": "What I used it for\n\nexporting stock developments\ndetermining median hotel prices\nextracting word frequency\ncircumventing copyright protection (flipbook) 🤫\nmaking a 💩ton of data entries"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#in-general",
-    "href": "slides/techlunch31032025.html#in-general",
-    "title": "Automating online data collection using web-scraping",
-    "section": "In general",
-    "text": "In general\n\nStructured data from webpages without export button\nAnalyzing online-data (forums, product reviews, …)\nSystematic interactions with specific sites\nFun personal projects 😊\n💭…\n\nBut!! Be mindful of the ethical, regulatory and legal impact of your project."
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#the-right-tool-for-the-job",
-    "href": "slides/techlunch31032025.html#the-right-tool-for-the-job",
-    "title": "Automating online data collection using web-scraping",
-    "section": "The right tool for the job…",
-    "text": "The right tool for the job…"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#selenium",
-    "href": "slides/techlunch31032025.html#selenium",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Selenium",
-    "text": "Selenium\n\nautomated interaction with a web-browser\n\n\n\nPro\n\ninteraction with web-browser\ninput data (e.g. forms, text)\ninteraction with dynamic sites (JavaScript)\n\n\nCon\n\nslow\nlearning curve\npain in the butt sometimes"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#beautifulsoup4",
-    "href": "slides/techlunch31032025.html#beautifulsoup4",
-    "title": "Automating online data collection using web-scraping",
-    "section": "BeautifulSoup4",
-    "text": "BeautifulSoup4\n\nextracts HTML structures and contents from webpages\n\n\n\nPro\n\nextracting html components of a single URL / a list of URLs where structure is standardized\neasy translations of objects into dataframes\n\n\nCon\n\ninteraction with web-browser\ninput data (e.g. forms, text)\ninteraction with dynamic sites (JavaScript)"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#beautifulsoup",
-    "href": "slides/techlunch31032025.html#beautifulsoup",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Beautifulsoup",
-    "text": "Beautifulsoup\nHow many chairs (and “sub-chairs”) do we have at the psychological Institute in Zurich?\n\n5 chairs and 35 “sub-chairs”\n5 chairs and 20 “sub-chairs”\n5 chairs and 29 “sub-chairs”"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#beautifulsoup-1",
-    "href": "slides/techlunch31032025.html#beautifulsoup-1",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Beautifulsoup",
-    "text": "Beautifulsoup\nHow many chairs (and “sub-chairs”) do we have at the psychological Institute in Zurich?\n\n5 chairs and 35 “sub-chairs”\n5 chairs and 20 “sub-chairs”\n5 chairs and 29 “sub-chairs”"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#beautifulsoup-2",
-    "href": "slides/techlunch31032025.html#beautifulsoup-2",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Beautifulsoup",
-    "text": "Beautifulsoup\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\n\n\nbase_url = \"https://www.psychologie.uzh.ch\"\noverview_url = base_url + \"/de/bereiche/uebersicht.html\"\n\nresponse = requests.get(overview_url)\nsoup = BeautifulSoup(response.text,\"html.parser\")\n\n\n\n## Level 1 subpages\nsubpage_links = []\nall_data = []\n\n\nfor link in soup.find_all(\"a\",href=True):\n    href = link[\"href\"]\n    if href.startswith(\"/de/bereiche/\") and href.endswith(\".html\"):\n        subpage_links.append(base_url+href)\n        print(base_url+href)\n\nfor subpage_url in subpage_links:\n    \n    print(f\"\\nScraping {subpage_url}\")\n    response = requests.get(subpage_url)\n    sub_soup = BeautifulSoup(response.text,\"html.parser\")\n\n    chair = sub_soup.find(\"h1\") ## e.g. Entwicklungspsychologie\n    chair_name = chair.get_text(strip=True)\n    print(chair_name)\n\n    tables = sub_soup.find_all(\"table\", class_=\"basic\") ## e.g. \"Entwicklungspsychologie: Kinder- und Säuglingsalter\"\n\n    for i, table in enumerate(tables):\n        print(f\"\\nTable {i+1} in {subpage_url}\")\n        table_data = []\n        table_data.append(chair_name)\n        rows = table.find_all(\"tr\")\n\n        for i, row in enumerate(rows):\n        \n            cells = row.find_all([\"th\",\"td\"])\n            length = len(cells)\n            print(f\"\\nlen: {length}\")\n\n            if length == 2:\n                title = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                table_data.append(title)\n                link = cells[1].find(\"a\",href=True)\n                table_data.append(link)\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 2\")\n                print(f\"\\nTitle: {title}\")\n                print(f\"\\nLink: {link}\")\n                if link:\n                    full_description = []\n                    subsubpage_link = base_url + link[\"href\"]\n                    subresponse = requests.get(subsubpage_link)\n                    subsub_soup = BeautifulSoup(subresponse.text, \"html.parser\")\n                    description = subsub_soup.find(\"section\", class_=\"ContentArea\")\n                    \n                    if description:\n                        section_text = description.get_text(strip=True, separator=\" \")\n                        full_description.append(section_text)\n                        \n                    else:\n                        print(\"No section found\")\n                    description_text = \" \".join(full_description)\n                    table_data.append(description_text)\n                    print(f\"\\ndescription: {description_text}\")\n            elif length == 1 and i == 1:\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 1\")\n                name = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                print(f\"\\nName: {name}\")\n                table_data.append(name)\n            elif length == 1 and i == 2:\n                print(f\"\\niteration: {i}\")\n                print(\"Length = 1\")\n                position = cells[0].get_text(strip=True) if len(cells) &gt; 0 else \"\"\n                print(f\"\\nPosition: {position}\")\n                table_data.append(position)\n            \n            print(table_data)\n            all_data.append(table_data)\n\ndf = pd.DataFrame(all_data)\ndf.to_csv(\"beautifulsoup.csv\",index=False,sep=\";\",quoting=1,encoding=\"utf-8-sig\")"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#selenium-1",
-    "href": "slides/techlunch31032025.html#selenium-1",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Selenium",
-    "text": "Selenium\nWhat is the most-watched video on the youtube channel of UZH?\n\nDer flexible Schweif des Prions vergiftet die Hirnzellen (en: the flexible tail of the prion poisons brain cells)\nSchwebebahn mit Hochtemperatur-Supraleitung (en: Suspension railroad with high-temperature superconductivity)\nMoosforschung (en: moss research)"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#selenium-2",
-    "href": "slides/techlunch31032025.html#selenium-2",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Selenium",
-    "text": "Selenium\nWhat is the most-watched video on the youtube channel of UZH?\n\nDer flexible Schweif des Prions vergiftet die Hirnzellen (en: the flexible tail of the prion poisons brain cells)\nSchwebebahn mit Hochtemperatur-Supraleitung (en: Suspension railroad with high-temperature superconductivity)\nMoosforschung (en: moss research)"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#selenium-3",
-    "href": "slides/techlunch31032025.html#selenium-3",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Selenium",
-    "text": "Selenium\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom selenium.webdriver.common.keys import Keys\nfrom selenium.webdriver.firefox.service import Service\nfrom webdriver_manager.firefox import GeckoDriverManager\nfrom selenium.webdriver.firefox.options import Options\nimport time\nimport re\nimport pandas as pd\n\ndata = [] \ndef text_before(text,delimiter):\n    return text.split(delimiter)[0] if delimiter in text else text\ndef text_after(text, delimiter):\n    return text.split(delimiter, 1)[1] if delimiter in text else \"\"\n\nfirefox_options = Options()\n#firefox_options.add_argument(\"--headless\")  # if you don't want to open a window\nfirefox_options.add_argument(\"--disable-gpu\")\n\ndriver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=firefox_options)\n\nchannel_url = 'https://www.youtube.com/@uzhch/videos'\ndriver.get(channel_url)\ntime.sleep(5)\n\n## accept all cookies\ntry:\n    accept_button = driver.find_element(By.XPATH, \"/html/body/c-wiz/div/div/div/div[2]/div[1]/div[3]/div[1]/form[2]/div/div/button/span\")\n    accept_button.click()\n    print(\"Cookies accepted.\")\nexcept Exception as e:\n    print(f\"Could not accept cookies: {e}\")\n\ntime.sleep(5)\n\nstart_height = driver.execute_script(\"return document.documentElement.scrollHeight\")\nprint(start_height)\nmax_attempts = 100\nattempt = 0\n\nwhile attempt &lt; max_attempts:    \n    html = driver.find_element(By.TAG_NAME, 'html')\n    html.send_keys(Keys.END)\n    time.sleep(3)\n    new_height = driver.execute_script(\"return document.documentElement.scrollHeight\")\n    print(new_height)\n    if new_height == start_height:\n        break\n    else: \n        start_height = new_height\n\n    attempt+=1\n\nlinks = driver.find_elements(By.CSS_SELECTOR, \"a#video-title-link\")\naria_labels = [link.get_attribute(\"aria-label\") for link in links]\nfor label in aria_labels:\n    print(label)\n\n    title = text_before(label,\"by Universität Zürich\")\n    print(title)\n    \n    views = text_after(label,\"by Universität Zürich\")\n    views = text_before(views,\" views \")\n    print(views)\n    \n    date = text_after(label, views+\" views \")\n    date = text_before(date,\" ago \")\n    print(date)\n    \n    duration = text_after(label,date+\" ago \")\n    print(duration)\n\n    data.append([title, views, date, duration])\n\ndf = pd.DataFrame(data, columns=[\"Title\", \"Views\", \"Date\", \"Duration\"])\ndf.to_csv(\"youtube_data.csv\",index=False,quoting=1,sep=\";\",encoding=\"utf-8\")"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#qa",
-    "href": "slides/techlunch31032025.html#qa",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Q&A",
-    "text": "Q&A"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#amount-of-videos-uploaded-per-year-on-uzhs-youtube-channel",
-    "href": "slides/techlunch31032025.html#amount-of-videos-uploaded-per-year-on-uzhs-youtube-channel",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Amount of videos uploaded per year on UZH’s youtube channel",
-    "text": "Amount of videos uploaded per year on UZH’s youtube channel"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#duration-of-videos-across-time",
-    "href": "slides/techlunch31032025.html#duration-of-videos-across-time",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Duration of Videos across time",
-    "text": "Duration of Videos across time"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#most-frequently-used-words-in-descriptions-of-our-sub-chairs",
-    "href": "slides/techlunch31032025.html#most-frequently-used-words-in-descriptions-of-our-sub-chairs",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Most frequently used words in descriptions of our (sub-)chairs",
-    "text": "Most frequently used words in descriptions of our (sub-)chairs"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#oh-hello-there",
-    "href": "slides/techlunch31032025.html#oh-hello-there",
-    "title": "Automating online data collection using web-scraping",
-    "section": "… oh hello there!",
-    "text": "… oh hello there!"
-  },
-  {
-    "objectID": "slides/techlunch31032025.html#length-of-descriptions-in-words",
-    "href": "slides/techlunch31032025.html#length-of-descriptions-in-words",
-    "title": "Automating online data collection using web-scraping",
-    "section": "Length of descriptions in words",
-    "text": "Length of descriptions in words"
+    "objectID": "slides/HSG_CBT.html#about-me",
+    "href": "slides/HSG_CBT.html#about-me",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "About Me",
+    "text": "About Me"
   },
   {
     "objectID": "slides/HSG_CBT.html#section",
@@ -271,13 +278,6 @@
     "title": "Job Talk @ IBT-HSG",
     "section": "",
     "text": "Nature\n\n\n\n\nNurture\n\n\n\n\nNugget"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#about-me",
-    "href": "slides/HSG_CBT.html#about-me",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "About Me",
-    "text": "About Me"
   },
   {
     "objectID": "slides/HSG_CBT.html#a-specification-curve-evaluation-of-nlp-classifiers-for-state-specific-psychological-mechanisms-influencing-decisions-under-risk-and-uncertainty",
@@ -294,18 +294,18 @@
     "text": "Background\n\nmany proposed state-dependent influences,  little research on their occurence in real life\n\nLob, Fischer, and Frey (2025), Holleman et al. (2020), Quinan et al. (2015)\n\nnatural language as data and NLP as method\n\nBinz et al. (2025), Ostrovsky and Newell (2024),\n\npromising first results but no systematic evaluation\n\nHeitz, Schneider, and Langer (2024), Fischer, Lob, and Frey (2024), Bhatia (2024), and others"
   },
   {
-    "objectID": "slides/HSG_CBT.html#this-study",
-    "href": "slides/HSG_CBT.html#this-study",
+    "objectID": "slides/HSG_CBT.html#aim-research-question",
+    "href": "slides/HSG_CBT.html#aim-research-question",
     "title": "Job Talk @ IBT-HSG",
-    "section": "This Study",
-    "text": "This Study\nAim\nSystematic comparison of algorithms harnessing NLP on their capabilities and limitations in diagnosing state-specific mechanisms influencing people when making decisions  \nResearch Question\nHow reliably can we identify state-specific mechanisms from natural language influencing people in decision-making?"
+    "section": "Aim & Research Question",
+    "text": "Aim & Research Question\nAim\nSystematic comparison of algorithms harnessing NLP on their capabilities and limitations in diagnosing state-specific mechanisms influencing people when making decisions  \nResearch Question\nHow reliably can we identify state-specific mechanisms from natural language influencing people in decision-making?"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods",
     "href": "slides/HSG_CBT.html#methods",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods",
-    "text": "Methods\nData Collection\n\n\n\nrandomized-controlled study: four groups (baseline, 3 manipulations)\nonline experiment, \\(n\\) = 320\nsimultaneous performance of think-aloud protocols\n\nPayne (1994), Smagorinsky (1998), and others\n\n\n\n      \n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others\n\n\n\n\n\nBaseline Condition\n\n\n\n\n\nSocial Norms Gerrard et al. (2008)\n\n\n\n\n\nKnowledge on situation Fischhoff et al. (1978)\n\n\n\n\n\nNeed Mishra (2014), Mishra, Barclay, and Sparks (2017)"
+    "text": "Methods\nData Collection\n\n\n\nonline experiment, \\(n\\) = 320\nrandomized-controlled study: four groups(baseline, 3 manipulations)\nsimultaneous performance of think-aloud protocols\n\nPayne (1994), Smagorinsky (1998), and others\n\n\n\n      \n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others\n\n\n\n\n\nBaseline Condition\n\n\n\n\n\nSocial Norms Gerrard et al. (2008)\n\n\n\n\n\nKnowledge on situation Fischhoff et al. (1978)\n\n\n\n\n\nNeed Mishra (2014), Mishra, Barclay, and Sparks (2017)"
   },
   {
     "objectID": "slides/HSG_CBT.html#methods-1",
@@ -319,21 +319,7 @@
     "href": "slides/HSG_CBT.html#methods-2",
     "title": "Job Talk @ IBT-HSG",
     "section": "Methods",
-    "text": "Methods\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#methods-3",
-    "href": "slides/HSG_CBT.html#methods-3",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methods",
-    "text": "Methods\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#methods-4",
-    "href": "slides/HSG_CBT.html#methods-4",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methods",
-    "text": "Methods\nAnalysis\n\nSpecification Curve Analysis:  Simonsohn, Simmons, and Nelson (2020) \n\n3 data preselection strategies (Include all, Include only objective perception, include only subjective perception)\n4 preprocessing methods (No preprocessing, pre-processing, normalizing, removal of common words)\n4 classification algorithms (Deepseek R1, SBERT, RAG, RAG+SBERT)\n2 classification paradigms (One vs. One, One vs. Rest)\n4 mechanisms\n\n\n\\(\\Rightarrow\\) 315 main algorithms compared"
+    "text": "Methods\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks\n\n\nSupplementary Results"
   },
   {
     "objectID": "slides/HSG_CBT.html#results",
@@ -343,27 +329,6 @@
     "text": "Results\n\n\n\n\n\n\n\n\nSupplementary Results"
   },
   {
-    "objectID": "slides/HSG_CBT.html#methods-keep",
-    "href": "slides/HSG_CBT.html#methods-keep",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methods (keep?)",
-    "text": "Methods (keep?)\nAnalysis"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#about-me-nugget-fix-this-shit",
-    "href": "slides/HSG_CBT.html#about-me-nugget-fix-this-shit",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "About Me (nugget fix this shit)",
-    "text": "About Me (nugget fix this shit)"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#about-me-1",
-    "href": "slides/HSG_CBT.html#about-me-1",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "About Me",
-    "text": "About Me"
-  },
-  {
     "objectID": "slides/HSG_CBT.html#results-1",
     "href": "slides/HSG_CBT.html#results-1",
     "title": "Job Talk @ IBT-HSG",
@@ -371,32 +336,11 @@
     "text": "Results\nStatistical Significance\n\n\n\n\nFurther Results"
   },
   {
-    "objectID": "slides/HSG_CBT.html#results-2",
-    "href": "slides/HSG_CBT.html#results-2",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Results",
-    "text": "Results"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#results-3",
-    "href": "slides/HSG_CBT.html#results-3",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Results",
-    "text": "Results\nStatistical Significance\n\nPrimary ResultsFurther Results"
-  },
-  {
     "objectID": "slides/HSG_CBT.html#implications",
     "href": "slides/HSG_CBT.html#implications",
     "title": "Job Talk @ IBT-HSG",
     "section": "Implications",
     "text": "Implications\nMethodological\n\ngiven the right circumstances, psychological mechanisms can be inferred from natural language\nmethodological approach \\(\\geq\\) mechanism\n\nPractical\n\nscaleable analysis of text-data\nviable to test (co-)occurrence of mechanisms in naturalistic scenarios\nvalidation with real world data & co-occurring mechanisms pending"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#at-the-heart-of-it",
-    "href": "slides/HSG_CBT.html#at-the-heart-of-it",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "At the heart of it…",
-    "text": "At the heart of it…\n(probably won’t present that slide… ) * In what ways are thoughts and behaviors of humans shaped? What “rules” do they follow? * How do these rules validate or question our existing theories on human thought and behavior? * How can we model human thought and behavior in applied settings? * What does this tell us about the theoretic and practical implications?\nIBT in particular: * has a focus on behavioral science and technology within an applied perspective, as HSG is a business school * is situated within a highly relevant and evolving field, as it particularly looks at human interaction together with technology"
   },
   {
     "objectID": "slides/HSG_CBT.html#the-privacy-convenience-paradox",
@@ -413,151 +357,11 @@
     "text": "The Privacy-Convenience-Paradox\n\nDecision-research: Humans do not act rational\n\n\nArkes, Gigerenzer, and Hertwig (2016)\n\n\\(\\rightarrow\\) Bounded Rationality\n\nSimon (1955)\n\n\\(\\rightarrow\\) Dual-Process Theory\n\nStanovich and West (2000), Kahneman (2011)\n\n\n\n\n\nModel adapted from: Beke et al. (2022), Dinev and Hart (2006)\n\n\nExtension of Model"
   },
   {
-    "objectID": "slides/HSG_CBT.html#co-creation-vs.-consumption-domain-specificity-of-ai-adoption-in-generative-tasks",
-    "href": "slides/HSG_CBT.html#co-creation-vs.-consumption-domain-specificity-of-ai-adoption-in-generative-tasks",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Co-Creation vs. Consumption: Domain-specificity of AI-Adoption in Generative Tasks",
-    "text": "Co-Creation vs. Consumption: Domain-specificity of AI-Adoption in Generative Tasks\n\nwhy is it important?\n\nAI is getting more used to “replace” human\nAI can make you faster and get you better products at the cost of “learning”\ndeclarative knowledge (probably) decreases (?)\n\nquestions: when do people co-create with AI help, and when do they consume?\n\ndomains: Scientific Writing, Creative Writing, Coding, Art, …\n\nrelevance: AI is sometimes wrong! Where are the risks that people do not question and consume instead of co-create? Where do people stop taking ownership?\nrelation to IBT: has to do with de Bellis’ idea of autonomy / automation, has to do with philosophy of technology adoption / has to do with “meaning of life” questions"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#why-does-the-privacy-calculus-not-hold",
-    "href": "slides/HSG_CBT.html#why-does-the-privacy-calculus-not-hold",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Why does the Privacy-Calculus not hold?",
-    "text": "Why does the Privacy-Calculus not hold?\n\nBounded Rationality = humans work with limited information, rely on cognitive shortcuts, and settle for satisficing options Simon (1955)\nDual-Process-Systems = humans default to fast and intuitive modes of thinking (system 1) for efficiency, and rely on deliberate and analytical reasoning (system 2) for novel or high-stakes decisions Kahneman (2011)\nprivacy notices are long and complex\nconsent pop-ups are not in compliance with GDPR\npeople are tired of privacy popups\npeople are more interested in getting to the content\n\nWhat can we do about it?\n\nEnforce the law ;)…\nTest various interventions to see how they help"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#what-can-we-do-about-it",
-    "href": "slides/HSG_CBT.html#what-can-we-do-about-it",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "What can we do about it?",
-    "text": "What can we do about it?\n\nEnforce the law ;)…\nTest various interventions to see how they help"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox",
-    "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Formal Modelling of the Privacy-Convenience-Paradox",
-    "text": "Formal Modelling of the Privacy-Convenience-Paradox\n\n\n\n\nModel adapted from: Beke et al. (2022), Dinev and Hart (2006)"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-1",
-    "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-1",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Formal Modelling of the Privacy-Convenience Paradox",
-    "text": "Formal Modelling of the Privacy-Convenience Paradox\n\\[\n{\\text{ABH} \\overset{?}{=}}\n\\left\\{\n\\begin{aligned}\n&\\frac{1}{1+e^{-k(\\text{WTS})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{red}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{3062FF}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}} + \\color{green}{\\gamma\\cdot \\text{IC}\\cdot \\text{EW}})}}\n\\end{aligned}\n\\right.\n\\]"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#methodological-approach",
-    "href": "slides/HSG_CBT.html#methodological-approach",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methodological Approach",
-    "text": "Methodological Approach\n\nRandomized-Controlled Study:"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-2",
-    "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-2",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Formal Modelling of the Privacy-Convenience Paradox",
-    "text": "Formal Modelling of the Privacy-Convenience Paradox\n\n\n\nHypothesis\nFormalization\n\n\n\n\nH1\n\\(\\alpha \\neq 0\\)\n\n\nH2\n\\(\\beta \\neq 0\\)\n\n\nH3\n\\(\\gamma \\neq 0\\)"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-3",
-    "href": "slides/HSG_CBT.html#formal-modelling-of-the-privacy-convenience-paradox-3",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Formal Modelling of the Privacy-Convenience Paradox",
-    "text": "Formal Modelling of the Privacy-Convenience Paradox"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#hypotheses",
-    "href": "slides/HSG_CBT.html#hypotheses",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Hypotheses",
-    "text": "Hypotheses\nH1: The preference-behavior discrepancy is higher when information complexity (IC) is high.\nH2: The preference-behavior discrepancy is higher when the ease of withdrawing (EW) consent is low.\nH3: Information complexity and the ease of withdrawing consent are interdependent moderators of the preference-behavior discrepancy."
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#experimental-setup",
-    "href": "slides/HSG_CBT.html#experimental-setup",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Experimental Setup",
-    "text": "Experimental Setup\n\n\n\n\nMaterial inspired by Nouwens et al. (2020), Litman-Navarro (2019), Acquisti et al. (2018), Zhang, Koivumäki, and Chalmers (2024)\n\n\n\n\nImages Source: bbc.uk.com, ch.indeed.com"
-  },
-  {
     "objectID": "slides/HSG_CBT.html#research-question-1",
     "href": "slides/HSG_CBT.html#research-question-1",
     "title": "Job Talk @ IBT-HSG",
     "section": "Research Question",
     "text": "Research Question\n\n(How) can we explain discrepancies between preference and behavior in online disclosure of private data through theories of bounded rationality and heuristics targeting the fast systems of dual-process systems?"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#the-bigger-picture",
-    "href": "slides/HSG_CBT.html#the-bigger-picture",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "The bigger Picture",
-    "text": "The bigger Picture\n\nscientific regret minimization\nwhat shape is the decision?\nwhat relevance does it have?\nHELP"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#next-steps",
-    "href": "slides/HSG_CBT.html#next-steps",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Next Steps??",
-    "text": "Next Steps??"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#section-1",
-    "href": "slides/HSG_CBT.html#section-1",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "",
-    "text": "\\(\\Rightarrow\\) Privacy-Calculus theory cannot explain privacy-convenience-paradox\n\nDecision-research: Humans do not act rational Arkes, Gigerenzer, and Hertwig (2016) \n\\(\\rightarrow\\) Bounded Rationality Simon (1955) \n\\(\\rightarrow\\) Dual-Process Theory Stanovich and West (2000), Kahneman (2011)"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#methods---data-collection",
-    "href": "slides/HSG_CBT.html#methods---data-collection",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methods - Data Collection",
-    "text": "Methods - Data Collection\n\nrandomized-controlled study\nonline experiment, \\(n\\) = 320\nfour groups (baseline, social norms, knowledge on situation, need)\nsimultaneous performance of think-aloud protocols\n\n\nPayne (1994), Smagorinsky (1998), and others"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#methods---data-collection-1",
-    "href": "slides/HSG_CBT.html#methods---data-collection-1",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methods - Data Collection",
-    "text": "Methods - Data Collection\n\nfour groups:\n\nbaseline\nsocial norms Gerrard et al. (2008)\nknowledge on situation Fischhoff et al. (1978)\nneed Mishra (2014), Mishra, Barclay, and Sparks (2017)\n\n\n\nManipulation implementations based on: Frey and Fischer (2024), Pieters and Wedel (2004), Mitchell and Olson (1981), Shi, Li, and Chumnumpan (2020), Gerrard et al. (2008), and others"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#methods---analysis",
-    "href": "slides/HSG_CBT.html#methods---analysis",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methods - Analysis",
-    "text": "Methods - Analysis\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#methods---analysis-1",
-    "href": "slides/HSG_CBT.html#methods---analysis-1",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methods - Analysis",
-    "text": "Methods - Analysis\nSpecification Curve Analysis\n\nSimonsohn, Simmons, and Nelson (2020)\n\n\n315 main specifications\n3’900 specifications including robustness checks"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#methods---analysis-2",
-    "href": "slides/HSG_CBT.html#methods---analysis-2",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Methods - Analysis",
-    "text": "Methods - Analysis"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#aim-research-questions",
-    "href": "slides/HSG_CBT.html#aim-research-questions",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Aim & Research Questions",
-    "text": "Aim & Research Questions\nAim\nSystematic comparison of algorithms harnessing NLP on their capabilities and limitations in diagnosing state-specific mechanisms influencing people when making decisions  \nResearch Question\nHow reliably can we identify state-specific mechanisms from natural language influencing people in decision-making?"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#aim-research-question",
-    "href": "slides/HSG_CBT.html#aim-research-question",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Aim & Research Question",
-    "text": "Aim & Research Question\nAim\nSystematic comparison of algorithms harnessing NLP on their capabilities and limitations in diagnosing state-specific mechanisms influencing people when making decisions  \nResearch Question\nHow reliably can we identify state-specific mechanisms from natural language influencing people in decision-making?"
   },
   {
     "objectID": "slides/HSG_CBT.html#a-formal-model-of-the-privacy-convenience-paradox",
@@ -581,11 +385,32 @@
     "text": "Added Value\nTheory\n\nempirical validation of model\n\nbetter model to predict consumer behavior\n\n\nPractice\n\nmaximisation of benefits\n\npolicy: use resources where it is most effective\nconsumers: enabling to make decisions congruent with preference"
   },
   {
-    "objectID": "slides/HSG_CBT.html#formal-model",
-    "href": "slides/HSG_CBT.html#formal-model",
+    "objectID": "slides/HSG_CBT.html#supplementary-data",
+    "href": "slides/HSG_CBT.html#supplementary-data",
     "title": "Job Talk @ IBT-HSG",
-    "section": "Alternative Formulas of the PC-Paradox",
-    "text": "Alternative Formulas of the PC-Paradox\n\\[\n{\\text{ABH} \\overset{?}{=}}\n\\left\\{\n\\begin{aligned}\n&\\frac{1}{1+e^{-k(\\text{WTS})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{red}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{red}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}} + \\color{green}{\\gamma\\cdot \\text{IC}\\cdot \\text{EW}})}}\n\\end{aligned}\n\\right.\n\\]"
+    "section": "Supplementary Results",
+    "text": "Supplementary Results\n\nhttps://saboustocker.shinyapps.io/webapp_analysis/"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#further-results",
+    "href": "slides/HSG_CBT.html#further-results",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Further Results: Statistical Significance",
+    "text": "Further Results: Statistical Significance"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#experimental-setup",
+    "href": "slides/HSG_CBT.html#experimental-setup",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Experimental Setup",
+    "text": "Experimental Setup\n\n\n\n\nMaterial inspired by Nouwens et al. (2020), Litman-Navarro (2019), Acquisti et al. (2018), Zhang, Koivumäki, and Chalmers (2024)\n\n\n\n\nImages Source: bbc.uk.com, ch.indeed.com"
+  },
+  {
+    "objectID": "slides/HSG_CBT.html#srm",
+    "href": "slides/HSG_CBT.html#srm",
+    "title": "Job Talk @ IBT-HSG",
+    "section": "Scientific Regret Minimization",
+    "text": "Scientific Regret Minimization\n\nAgrawal, Peterson, and Griffiths (2020)"
   },
   {
     "objectID": "slides/HSG_CBT.html#extended-model",
@@ -602,31 +427,24 @@
     "text": "Dynamic Visualization of Model"
   },
   {
-    "objectID": "slides/HSG_CBT.html#scientific-regret-minimization",
-    "href": "slides/HSG_CBT.html#scientific-regret-minimization",
+    "objectID": "slides/HSG_CBT.html#formal-model",
+    "href": "slides/HSG_CBT.html#formal-model",
     "title": "Job Talk @ IBT-HSG",
-    "section": "Scientific Regret Minimization",
-    "text": "Scientific Regret Minimization\n\nAgrawal, Peterson, and Griffiths (2020)"
+    "section": "Alternative Formulas of the PC-Paradox",
+    "text": "Alternative Formulas of the PC-Paradox\n\\[\n{\\text{ABH} \\overset{?}{=}}\n\\left\\{\n\\begin{aligned}\n&\\frac{1}{1+e^{-k(\\text{WTS})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{red}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}})}} \\\\[0.6em]\n&\\frac{1}{1+e^{-k(\\text{WTS}+\\color{red}{\\alpha \\cdot \\text{IC}}+\\color{blue}{\\beta \\cdot \\text{EW}} + \\color{green}{\\gamma\\cdot \\text{IC}\\cdot \\text{EW}})}}\n\\end{aligned}\n\\right.\n\\]"
   },
   {
-    "objectID": "slides/HSG_CBT.html#srm",
-    "href": "slides/HSG_CBT.html#srm",
+    "objectID": "slides/HSG_CBT.html#a-specification-curve-analysis-of-nlp-classifiers-diagnosing-psychological-mechanisms-influencing-decision-making",
+    "href": "slides/HSG_CBT.html#a-specification-curve-analysis-of-nlp-classifiers-diagnosing-psychological-mechanisms-influencing-decision-making",
     "title": "Job Talk @ IBT-HSG",
-    "section": "Scientific Regret Minimization",
-    "text": "Scientific Regret Minimization\n\nAgrawal, Peterson, and Griffiths (2020)"
+    "section": "A Specification Curve Analysis of NLP Classifiers Diagnosing Psychological Mechanisms Influencing Decision-Making",
+    "text": "A Specification Curve Analysis of NLP Classifiers Diagnosing Psychological Mechanisms Influencing Decision-Making\nMaster’s Thesis Sabou Rani Stocker  Cognitive and Behavioral Decision Research  University of Zurich  supervised by Prof. Dr. Renato Frey and Olivia Fischer"
   },
   {
-    "objectID": "slides/HSG_CBT.html#supplementary-data",
-    "href": "slides/HSG_CBT.html#supplementary-data",
+    "objectID": "slides/HSG_CBT.html#thank-you",
+    "href": "slides/HSG_CBT.html#thank-you",
     "title": "Job Talk @ IBT-HSG",
-    "section": "Supplementary Results",
-    "text": "Supplementary Results\n\nhttps://saboustocker.shinyapps.io/webapp_analysis/"
-  },
-  {
-    "objectID": "slides/HSG_CBT.html#further-results",
-    "href": "slides/HSG_CBT.html#further-results",
-    "title": "Job Talk @ IBT-HSG",
-    "section": "Further Results: Statistical Significance",
-    "text": "Further Results: Statistical Significance"
+    "section": "Thank you!",
+    "text": "Thank you!\n\n\n\n\n\nSlides"
   }
 ]
