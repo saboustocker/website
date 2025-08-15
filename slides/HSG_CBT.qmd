@@ -1,10 +1,11 @@
 ---
-title: Job Talk @ IBT-HSG
+title: Candidate Presentation
+subtitle: PhD in Consumer Behavior & Technology at IBT-HSG
 author: "Sabou Rani Stocker"
 date: 15 08 2025
 format: 
   revealjs:
-    footer: Job Talk @ IBT-HSG | Sabou Rani Stocker | 15.08.2025
+    footer: Candidate Presentation @ IBT-HSG | Sabou Rani Stocker | 15.08.2025
 date-format: "DD.MM.YY"
 bibliography:
   - "../bibliography/nlplibrary.bib"
